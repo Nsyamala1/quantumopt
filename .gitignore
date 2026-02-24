@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+data/circuits/
+dataset.json
+dataset_clean.json
+dataset_checkpoint.json
+failed.log
+
+# Model weights (keep the trained weights in the package)
+!quantumopt/models/weights/gnn_best.pt
+
+# Reports
+benchmark_report.json
+benchmark_report.txt
+
+# OS
+.DS_Store
+Thumbs.db
