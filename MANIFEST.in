@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+recursive-include quantumopt/models/weights *.pt
+recursive-include quantumopt/models/weights *.json
+recursive-include quantumopt/models/weights *.txt

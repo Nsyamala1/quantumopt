@@ -1,71 +1,70 @@
-"""
-setup.py — QuantumOpt package installer.
-
-Install in development mode:
-    pip install -e .
-
-Install from PyPI (future):
-    pip install quantumopt
-"""
-
 from setuptools import setup, find_packages
-from pathlib import Path
+import os
 
+# Read README for long description
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
 
-def read_requirements():
-    """Read requirements from requirements.txt."""
-    req_path = Path(__file__).parent / "requirements.txt"
-    if req_path.exists():
-        return [
-            line.strip()
-            for line in req_path.read_text().splitlines()
-            if line.strip() and not line.startswith("#")
-        ]
-    return []
-
-
-def read_readme():
-    """Read long description from README.md."""
-    readme_path = Path(__file__).parent / "README.md"
-    if readme_path.exists():
-        return readme_path.read_text(encoding="utf-8")
-    return ""
-
+# Read requirements
+with open("requirements.txt", "r") as f:
+    requirements = [
+        line.strip() for line in f 
+        if line.strip() and not line.startswith("#")
+    ]
 
 setup(
     name="quantumopt",
     version="0.1.0",
-    author="QuantumOpt Team",
-    description="AI-driven quantum circuit compiler using GNN + Claude LLM for IBM Quantum hardware",
-    long_description=read_readme(),
+    author="Naveen Syamala",
+    author_email="your@email.com",
+    description="AI-driven quantum circuit compiler using GNN + LLM",
+    long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/quantumopt/quantumopt",
-    packages=find_packages(exclude=["tests*", "benchmarks*"]),
-    python_requires=">=3.9",
-    install_requires=read_requirements(),
+    url="https://github.com/nsyamala1/quantumopt",
+    packages=find_packages(),
+    package_data={
+        "quantumopt": [
+            "models/weights/*.pt",
+            "models/weights/*.txt",
+            "models/weights/*.json",
+        ]
+    },
+    include_package_data=True,
+    python_requires=">=3.10",
+    install_requires=[
+        "qiskit>=1.0.0",
+        "qiskit-aer>=0.13.0",
+        "qiskit-ibm-runtime>=0.20.0",
+        "torch>=2.0.0",
+        "torch-geometric>=2.4.0",
+        "networkx>=3.0",
+        "numpy>=1.24.0",
+        "python-dotenv>=1.0.0",
+    ],
     extras_require={
-        "dev": ["pytest", "pytest-cov", "black", "flake8"],
+        "llm": ["anthropic>=0.20.0"],
+        "dev": [
+            "pytest>=7.0.0",
+            "pytest-cov>=4.0.0",
+        ],
     },
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Science/Research",
         "Topic :: Scientific/Engineering :: Physics",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.9",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
     ],
-    keywords="quantum computing, circuit optimization, GNN, compiler, qiskit",
-    entry_points={
-        "console_scripts": [
-            "quantumopt=quantumopt.compiler:main",
-        ],
-    },
-    include_package_data=True,
-    package_data={
-        "quantumopt": ["models/weights/*.pt"],
-    },
+    keywords=[
+        "quantum computing",
+        "quantum compiler",
+        "circuit optimization",
+        "graph neural network",
+        "qiskit",
+        "ibm quantum",
+        "variational quantum eigensolver",
+        "QAOA",
+    ],
 )
