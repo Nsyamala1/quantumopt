@@ -38,93 +38,82 @@ def _get_client():
 
 
 def explain_optimization(
-    before_stats: Dict[str, Any],
-    after_stats: Dict[str, Any],
-    decisions_made: List[str],
-) -> Optional[str]:
-    """Generate a plain-English explanation of optimization decisions using Claude.
+    before_stats: dict,
+    after_stats: dict, 
+    decisions: list
+) -> str:
+    
+    api_key = os.getenv('ANTHROPIC_API_KEY')
+    if not api_key:
+        return None  # triggers fallback template
+    
+    import anthropic
+    client = anthropic.Anthropic(api_key=api_key)
+    
+    depth_change = before_stats['depth'] - after_stats['depth']
+    gate_change = before_stats['gate_count'] - after_stats['gate_count']
+    fidelity = after_stats.get('estimated_fidelity', 0)
+    
+    prompt = f"""You are an expert quantum compiler engineer 
+writing for a quantum physics research audience.
 
-    Calls Claude API (model: claude-opus-4-6, max_tokens: 400) to produce
-    a 3-5 sentence explanation suitable for citation in academic papers.
+A quantum circuit was compiled with these results:
 
-    Args:
-        before_stats: Dict with original circuit stats (depth, gate_count, etc.).
-        after_stats: Dict with optimized circuit stats.
-        decisions_made: List of optimization actions applied (e.g.,
-            ["cancel_redundant_gates", "merge_rotations"]).
+BEFORE compilation:
+- Circuit depth: {before_stats['depth']}
+- Total gates: {before_stats['gate_count']}
 
-    Returns:
-        String explanation, or None if ANTHROPIC_API_KEY is not set.
-    """
-    client = _get_client()
-    if client is None:
-        return None
+AFTER optimization for IBM Brisbane hardware:
+- Circuit depth: {after_stats['depth']} 
+  ({abs(depth_change)} {'fewer' if depth_change > 0 else 'more'} layers)
+- Total gates: {after_stats['gate_count']}
+  ({abs(gate_change)} {'fewer' if gate_change > 0 else 'more'} gates)
+- Estimated fidelity: {fidelity:.4f}
 
-    # Build the prompt
-    prompt = f"""You are a quantum computing expert writing for a quantum research paper.
-Explain the following circuit optimization results in 3-5 sentences. Be precise and
-technical enough for citation in an academic paper, but use clear language.
+Optimization techniques applied: {', '.join(decisions)}
 
-Original Circuit Statistics:
-- Depth: {before_stats.get('depth', 'N/A')}
-- Total gate count: {before_stats.get('gate_count', 'N/A')}
-- Two-qubit gate count: {before_stats.get('two_qubit_gate_count', before_stats.get('cx_count', 'N/A'))}
-- Number of qubits: {before_stats.get('num_qubits', 'N/A')}
+Write exactly 3 sentences explaining:
+1. What was optimized and by how much
+2. Which technique had the most impact and why
+3. How this improves execution on real IBM hardware
 
-Optimized Circuit Statistics:
-- Depth: {after_stats.get('depth', 'N/A')}
-- Total gate count: {after_stats.get('gate_count', 'N/A')}
-- Two-qubit gate count: {after_stats.get('two_qubit_gate_count', after_stats.get('cx_count', 'N/A'))}
-- Estimated fidelity: {after_stats.get('estimated_fidelity', 'N/A')}
-
-Optimization techniques applied: {', '.join(decisions_made) if decisions_made else 'standard transpilation'}
-
-Write a concise explanation of what was optimized and why these changes improve
-circuit execution on IBM Quantum hardware. Focus on the practical impact on
-fidelity, decoherence, and execution time."""
-
+Requirements:
+- Technical language appropriate for a research paper
+- Mention specific gate counts and depth numbers
+- Do not start with "The circuit was optimized"
+- Write as if this will be cited in a paper
+- Be specific not generic
+"""
+    
     try:
         response = client.messages.create(
-            model="claude-opus-4-6",
-            max_tokens=400,
-            messages=[{"role": "user", "content": prompt}],
+            model="claude-sonnet-4-6",
+            max_tokens=300,
+            messages=[{"role": "user", "content": prompt}]
         )
-        return response.content[0].text.strip()
+        return response.content[0].text
     except Exception as e:
         logger.warning(f"Claude API call failed: {e}")
-        return None
+        return None  # triggers fallback template
 
 
 def explain_optimization_fallback(
-    before_stats: Dict[str, Any],
-    after_stats: Dict[str, Any],
-    decisions_made: List[str],
+    before_stats: dict,
+    after_stats: dict,
+    decisions: list
 ) -> str:
-    """Generate a template-based explanation when Claude API is unavailable.
-
-    Returns:
-        A structured explanation string.
-    """
-    depth_before = before_stats.get("depth", 0)
-    depth_after = after_stats.get("depth", 0)
-    gates_before = before_stats.get("gate_count", 0)
-    gates_after = after_stats.get("gate_count", 0)
-    fidelity = after_stats.get("estimated_fidelity", "N/A")
-
-    depth_reduction = ((depth_before - depth_after) / max(depth_before, 1)) * 100
-    gate_reduction = ((gates_before - gates_after) / max(gates_before, 1)) * 100
-
-    techniques = ", ".join(decisions_made) if decisions_made else "standard Qiskit transpilation"
-
+    depth_reduction = before_stats['depth'] - after_stats['depth']
+    gate_reduction = before_stats['gate_count'] - after_stats['gate_count']
+    fidelity = after_stats.get('estimated_fidelity', 0)
+    
     return (
-        f"The circuit was optimized using {techniques}, reducing circuit depth "
-        f"from {depth_before} to {depth_after} ({depth_reduction:.1f}% reduction) "
-        f"and total gate count from {gates_before} to {gates_after} "
-        f"({gate_reduction:.1f}% reduction). "
-        f"The estimated circuit fidelity is {fidelity}. "
-        f"Reducing circuit depth minimizes decoherence effects, while lowering "
-        f"two-qubit gate count directly improves execution fidelity on "
-        f"superconducting quantum hardware."
+        f"Circuit compilation reduced depth by {depth_reduction} "
+        f"layers and eliminated {gate_reduction} gates through "
+        f"{', '.join(decisions)}. "
+        f"The optimized circuit targets IBM Brisbane native gate set "
+        f"with estimated fidelity of {fidelity:.4f}. "
+        f"Reduced gate count directly lowers accumulated error rates "
+        f"on NISQ hardware."
     )
 
 
@@ -173,7 +162,7 @@ Return ONLY the JSON object, no other text."""
         import json
         response = client.messages.create(
             model="claude-opus-4-6",
-            max_tokens=200,
+            max_tokens=300,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text.strip()

@@ -1,0 +1,423 @@
+{
+  "summary": {
+    "total_circuits": 41,
+    "avg_depth_reduction": 13.218325540753945,
+    "avg_gate_reduction": 15.247440191887287,
+    "improved_count": 34,
+    "worse_count": 0,
+    "neutral_count": 7,
+    "best_circuit": "dnn_n16.qasm"
+  },
+  "results": [
+    {
+      "filename": "qram_n20_transpiled.qasm",
+      "num_qubits": 20,
+      "original_depth": 144,
+      "optimized_depth": 140,
+      "depth_reduction": "3%",
+      "depth_reduction_float": 2.7777777777777777,
+      "gate_reduction": "-5%",
+      "gate_reduction_float": -4.571428571428571
+    },
+    {
+      "filename": "qram_n20.qasm",
+      "num_qubits": 20,
+      "original_depth": 188,
+      "optimized_depth": 145,
+      "depth_reduction": "23%",
+      "depth_reduction_float": 22.872340425531913,
+      "gate_reduction": "10%",
+      "gate_reduction_float": 9.62962962962963
+    },
+    {
+      "filename": "sat_n11_transpiled.qasm",
+      "num_qubits": 11,
+      "original_depth": 458,
+      "optimized_depth": 457,
+      "depth_reduction": "0%",
+      "depth_reduction_float": 0.21834061135371177,
+      "gate_reduction": "9%",
+      "gate_reduction_float": 8.707482993197278
+    },
+    {
+      "filename": "sat_n11.qasm",
+      "num_qubits": 11,
+      "original_depth": 500,
+      "optimized_depth": 458,
+      "depth_reduction": "8%",
+      "depth_reduction_float": 8.4,
+      "gate_reduction": "23%",
+      "gate_reduction_float": 23.269012485811576
+    },
+    {
+      "filename": "gcm_h6.qasm",
+      "num_qubits": 13,
+      "original_depth": 2447,
+      "optimized_depth": 1386,
+      "depth_reduction": "43%",
+      "depth_reduction_float": 43.35921536575398,
+      "gate_reduction": "31%",
+      "gate_reduction_float": 31.31152746903779
+    },
+    {
+      "filename": "bwt_n21.qasm",
+      "num_qubits": 21,
+      "original_depth": 256002,
+      "optimized_depth": 227504,
+      "depth_reduction": "11%",
+      "depth_reduction_float": 11.1319442816853,
+      "gate_reduction": "25%",
+      "gate_reduction_float": 25.060096359926614
+    },
+    {
+      "filename": "bwt_n21_transpiled.qasm",
+      "num_qubits": 21,
+      "original_depth": 227602,
+      "optimized_depth": 222703,
+      "depth_reduction": "2%",
+      "depth_reduction_float": 2.1524415426929466,
+      "gate_reduction": "4%",
+      "gate_reduction_float": 4.289405456106043
+    },
+    {
+      "filename": "ghz_state_n23.qasm",
+      "num_qubits": 23,
+      "original_depth": 26,
+      "optimized_depth": 26,
+      "depth_reduction": "0%",
+      "depth_reduction_float": 0.0,
+      "gate_reduction": "0%",
+      "gate_reduction_float": 0.0
+    },
+    {
+      "filename": "ghz_state_n23_transpiled.qasm",
+      "num_qubits": 23,
+      "original_depth": 26,
+      "optimized_depth": 26,
+      "depth_reduction": "0%",
+      "depth_reduction_float": 0.0,
+      "gate_reduction": "0%",
+      "gate_reduction_float": 0.0
+    },
+    {
+      "filename": "bv_n14_transpiled.qasm",
+      "num_qubits": 14,
+      "original_depth": 20,
+      "optimized_depth": 19,
+      "depth_reduction": "5%",
+      "depth_reduction_float": 5.0,
+      "gate_reduction": "12%",
+      "gate_reduction_float": 11.926605504587156
+    },
+    {
+      "filename": "bv_n14.qasm",
+      "num_qubits": 14,
+      "original_depth": 21,
+      "optimized_depth": 20,
+      "depth_reduction": "5%",
+      "depth_reduction_float": 4.761904761904762,
+      "gate_reduction": "1%",
+      "gate_reduction_float": 0.9090909090909091
+    },
+    {
+      "filename": "qft_n18.qasm",
+      "num_qubits": 18,
+      "original_depth": 138,
+      "optimized_depth": 121,
+      "depth_reduction": "12%",
+      "depth_reduction_float": 12.318840579710146,
+      "gate_reduction": "18%",
+      "gate_reduction_float": 18.257756563245824
+    },
+    {
+      "filename": "qft_n18_transpiled.qasm",
+      "num_qubits": 18,
+      "original_depth": 138,
+      "optimized_depth": 121,
+      "depth_reduction": "12%",
+      "depth_reduction_float": 12.318840579710146,
+      "gate_reduction": "18%",
+      "gate_reduction_float": 18.257756563245824
+    },
+    {
+      "filename": "qf21_n15_transpiled.qasm",
+      "num_qubits": 15,
+      "original_depth": 238,
+      "optimized_depth": 200,
+      "depth_reduction": "16%",
+      "depth_reduction_float": 15.966386554621847,
+      "gate_reduction": "12%",
+      "gate_reduction_float": 11.78082191780822
+    },
+    {
+      "filename": "qf21_n15.qasm",
+      "num_qubits": 15,
+      "original_depth": 249,
+      "optimized_depth": 201,
+      "depth_reduction": "19%",
+      "depth_reduction_float": 19.27710843373494,
+      "gate_reduction": "14%",
+      "gate_reduction_float": 13.793103448275861
+    },
+    {
+      "filename": "swap_test_n25_transpiled.qasm",
+      "num_qubits": 25,
+      "original_depth": 111,
+      "optimized_depth": 109,
+      "depth_reduction": "2%",
+      "depth_reduction_float": 1.8018018018018018,
+      "gate_reduction": "1%",
+      "gate_reduction_float": 0.8174386920980926
+    },
+    {
+      "filename": "swap_test_n25.qasm",
+      "num_qubits": 25,
+      "original_depth": 111,
+      "optimized_depth": 110,
+      "depth_reduction": "1%",
+      "depth_reduction_float": 0.9009009009009009,
+      "gate_reduction": "4%",
+      "gate_reduction_float": 3.6939313984168867
+    },
+    {
+      "filename": "square_root_n18_transpiled.qasm",
+      "num_qubits": 18,
+      "original_depth": 1430,
+      "optimized_depth": 1364,
+      "depth_reduction": "5%",
+      "depth_reduction_float": 4.615384615384616,
+      "gate_reduction": "11%",
+      "gate_reduction_float": 11.26659490491568
+    },
+    {
+      "filename": "square_root_n18.qasm",
+      "num_qubits": 18,
+      "original_depth": 1555,
+      "optimized_depth": 1364,
+      "depth_reduction": "12%",
+      "depth_reduction_float": 12.282958199356914,
+      "gate_reduction": "19%",
+      "gate_reduction_float": 18.860510805500983
+    },
+    {
+      "filename": "multiplier_n15_transpiled.qasm",
+      "num_qubits": 15,
+      "original_depth": 257,
+      "optimized_depth": 247,
+      "depth_reduction": "4%",
+      "depth_reduction_float": 3.8910505836575875,
+      "gate_reduction": "9%",
+      "gate_reduction_float": 9.41385435168739
+    },
+    {
+      "filename": "multiplier_n15.qasm",
+      "num_qubits": 15,
+      "original_depth": 318,
+      "optimized_depth": 247,
+      "depth_reduction": "22%",
+      "depth_reduction_float": 22.32704402515723,
+      "gate_reduction": "29%",
+      "gate_reduction_float": 29.26490984743412
+    },
+    {
+      "filename": "wstate_n27_transpiled.qasm",
+      "num_qubits": 27,
+      "original_depth": 109,
+      "optimized_depth": 109,
+      "depth_reduction": "0%",
+      "depth_reduction_float": 0.0,
+      "gate_reduction": "0%",
+      "gate_reduction_float": 0.0
+    },
+    {
+      "filename": "wstate_n27.qasm",
+      "num_qubits": 27,
+      "original_depth": 244,
+      "optimized_depth": 109,
+      "depth_reduction": "55%",
+      "depth_reduction_float": 55.32786885245902,
+      "gate_reduction": "52%",
+      "gate_reduction_float": 52.31388329979879
+    },
+    {
+      "filename": "qec9xz_n17.qasm",
+      "num_qubits": 17,
+      "original_depth": 24,
+      "optimized_depth": 22,
+      "depth_reduction": "8%",
+      "depth_reduction_float": 8.333333333333332,
+      "gate_reduction": "12%",
+      "gate_reduction_float": 11.650485436893204
+    },
+    {
+      "filename": "qec9xz_n17_transpiled.qasm",
+      "num_qubits": 17,
+      "original_depth": 24,
+      "optimized_depth": 22,
+      "depth_reduction": "8%",
+      "depth_reduction_float": 8.333333333333332,
+      "gate_reduction": "12%",
+      "gate_reduction_float": 11.650485436893204
+    },
+    {
+      "filename": "multiply_n13_transpiled.qasm",
+      "num_qubits": 13,
+      "original_depth": 45,
+      "optimized_depth": 45,
+      "depth_reduction": "0%",
+      "depth_reduction_float": 0.0,
+      "gate_reduction": "2%",
+      "gate_reduction_float": 2.4390243902439024
+    },
+    {
+      "filename": "multiply_n13.qasm",
+      "num_qubits": 13,
+      "original_depth": 46,
+      "optimized_depth": 45,
+      "depth_reduction": "2%",
+      "depth_reduction_float": 2.1739130434782608,
+      "gate_reduction": "7%",
+      "gate_reduction_float": 6.976744186046512
+    },
+    {
+      "filename": "bv_n19_transpiled.qasm",
+      "num_qubits": 19,
+      "original_depth": 25,
+      "optimized_depth": 24,
+      "depth_reduction": "4%",
+      "depth_reduction_float": 4.0,
+      "gate_reduction": "12%",
+      "gate_reduction_float": 12.080536912751679
+    },
+    {
+      "filename": "bv_n19.qasm",
+      "num_qubits": 19,
+      "original_depth": 26,
+      "optimized_depth": 25,
+      "depth_reduction": "4%",
+      "depth_reduction_float": 3.8461538461538463,
+      "gate_reduction": "1%",
+      "gate_reduction_float": 0.6666666666666667
+    },
+    {
+      "filename": "ising_n26.qasm",
+      "num_qubits": 26,
+      "original_depth": 22,
+      "optimized_depth": 11,
+      "depth_reduction": "50%",
+      "depth_reduction_float": 50.0,
+      "gate_reduction": "59%",
+      "gate_reduction_float": 58.53131749460043
+    },
+    {
+      "filename": "ising_n26_transpiled.qasm",
+      "num_qubits": 26,
+      "original_depth": 11,
+      "optimized_depth": 11,
+      "depth_reduction": "0%",
+      "depth_reduction_float": 0.0,
+      "gate_reduction": "6%",
+      "gate_reduction_float": 5.88235294117647
+    },
+    {
+      "filename": "knn_n25.qasm",
+      "num_qubits": 25,
+      "original_depth": 111,
+      "optimized_depth": 110,
+      "depth_reduction": "1%",
+      "depth_reduction_float": 0.9009009009009009,
+      "gate_reduction": "10%",
+      "gate_reduction_float": 10.29023746701847
+    },
+    {
+      "filename": "knn_n25_transpiled.qasm",
+      "num_qubits": 25,
+      "original_depth": 110,
+      "optimized_depth": 106,
+      "depth_reduction": "4%",
+      "depth_reduction_float": 3.6363636363636362,
+      "gate_reduction": "1%",
+      "gate_reduction_float": 1.1661807580174928
+    },
+    {
+      "filename": "bigadder_n18_transpiled.qasm",
+      "num_qubits": 18,
+      "original_depth": 181,
+      "optimized_depth": 179,
+      "depth_reduction": "1%",
+      "depth_reduction_float": 1.1049723756906076,
+      "gate_reduction": "3%",
+      "gate_reduction_float": 2.949852507374631
+    },
+    {
+      "filename": "bigadder_n18.qasm",
+      "num_qubits": 18,
+      "original_depth": 193,
+      "optimized_depth": 179,
+      "depth_reduction": "7%",
+      "depth_reduction_float": 7.253886010362693,
+      "gate_reduction": "8%",
+      "gate_reduction_float": 7.8431372549019605
+    },
+    {
+      "filename": "cat_state_n22.qasm",
+      "num_qubits": 22,
+      "original_depth": 25,
+      "optimized_depth": 25,
+      "depth_reduction": "0%",
+      "depth_reduction_float": 0.0,
+      "gate_reduction": "0%",
+      "gate_reduction_float": 0.0
+    },
+    {
+      "filename": "cat_state_n22_transpiled.qasm",
+      "num_qubits": 22,
+      "original_depth": 25,
+      "optimized_depth": 25,
+      "depth_reduction": "0%",
+      "depth_reduction_float": 0.0,
+      "gate_reduction": "0%",
+      "gate_reduction_float": 0.0
+    },
+    {
+      "filename": "seca_n11_transpiled.qasm",
+      "num_qubits": 11,
+      "original_depth": 100,
+      "optimized_depth": 96,
+      "depth_reduction": "4%",
+      "depth_reduction_float": 4.0,
+      "gate_reduction": "10%",
+      "gate_reduction_float": 9.931506849315069
+    },
+    {
+      "filename": "seca_n11.qasm",
+      "num_qubits": 11,
+      "original_depth": 129,
+      "optimized_depth": 97,
+      "depth_reduction": "25%",
+      "depth_reduction_float": 24.8062015503876,
+      "gate_reduction": "27%",
+      "gate_reduction_float": 26.795580110497237
+    },
+    {
+      "filename": "dnn_n16_transpiled.qasm",
+      "num_qubits": 16,
+      "original_depth": 246,
+      "optimized_depth": 66,
+      "depth_reduction": "73%",
+      "depth_reduction_float": 73.17073170731707,
+      "gate_reduction": "70%",
+      "gate_reduction_float": 69.52247191011236
+    },
+    {
+      "filename": "dnn_n16.qasm",
+      "num_qubits": 16,
+      "original_depth": 557,
+      "optimized_depth": 63,
+      "depth_reduction": "89%",
+      "depth_reduction_float": 88.68940754039497,
+      "gate_reduction": "89%",
+      "gate_reduction_float": 88.51648351648352
+    }
+  ]
+}
