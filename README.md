@@ -1,158 +1,141 @@
-<p align="center">
-  <h1 align="center">⚛️ QuantumOpt</h1>
-  <p align="center"><strong>GNN-guided quantum circuit optimization — 40% deeper depth reduction than Qiskit alone at 87% prediction accuracy.</strong></p>
-</p>
+# quantumopt
 
----
+> AI-driven quantum circuit compiler using Graph Neural 
+> Networks + Claude LLM — tested on real research circuits
 
-QuantumOpt integrates a trained Graph Attention Network with Qiskit's transpiler to predict and execute circuit optimizations before hardware compilation. Built for researchers running variational algorithms on IBM Quantum hardware.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Qiskit](https://img.shields.io/badge/Qiskit-1.0+-purple.svg)](https://qiskit.org)
 
-## Quick Start
+## What It Does
+
+quantumopt takes your quantum circuit and returns an 
+optimized version that runs more accurately on IBM 
+quantum hardware — with a plain English explanation 
+you can cite in your paper.
+
+## Installation
 
 ```bash
-pip install -e .
+pip install quantumopt
 ```
+
+## Usage
 
 ```python
 from qiskit import QuantumCircuit
 from quantumopt import compile
 
-qc = QuantumCircuit(6)
-qc.h(range(6))
-qc.cx(0, 1); qc.cx(2, 3); qc.cx(4, 5)
-qc.measure_all()
+# Your research circuit
+qc = QuantumCircuit(5)
+qc.h(0)
+qc.cx(0, 1)
+qc.cx(1, 2)
+qc.ry(0.5, 0)
+qc.rz(0.3, 1)
 
+# Compile and optimize
 result = compile(qc, hardware="ibm_brisbane")
-print(result.depth_reduction)   # "40%"
-print(result.gnn_prediction)    # 0.66
-print(result.explanation)       # Claude-generated optimization breakdown
+
+# Results
+print(result.depth_reduction)    # "31%"
+print(result.gate_reduction)     # "32%"
+print(result.explanation)        # Claude-generated report
+print(result.optimized_circuit)  # Ready to run on IBM
 ```
 
 ## Benchmark Results
 
-Evaluated on 2,000+ circuits from VQE, QAOA, QFT, and Grover workloads (3–10 qubits, depth 10–200):
+Tested on 41 real circuits from QASMbench 
+(published research circuits):
 
-| Metric | QuantumOpt | Qiskit Level 3 |
-|---|---|---|
-| **Depth reduction** | **40%** | baseline |
-| **Gate reduction** | **47%** | baseline |
-| **Compile time** | 3.4s | 2.1s |
-| **GNN accuracy** | 87% | N/A |
+| Metric                  | quantumopt | Baseline |
+|-------------------------|-----------|---------|
+| Avg depth reduction     | 13.2%     | 0%      |
+| Avg gate reduction      | 15.2%     | 0%      |
+| Circuits improved       | 34/41     | N/A     |
+| Circuits made worse     | 0/41      | N/A     |
+| Best result             | 89%       | N/A     |
 
-> [!NOTE]
-> Compile time includes GNN inference (~200ms) and optional Claude explanation generation. Pure transpilation time is comparable to Qiskit Level 3.
+Tested on 10,240 synthetic circuits:
+
+| Metric                          | Result |
+|---------------------------------|--------|
+| GNN prediction accuracy (±10%)  | 82%    |
+| GNN prediction accuracy (±20%)  | 100%   |
+| Avg predicted improvement       | 64.5%  |
+
+## Example Explanation Output
+
+When `ANTHROPIC_API_KEY` is set, quantumopt generates 
+research-quality explanations:
+
+> "Transpilation of the target circuit for IBM Brisbane 
+> hardware yielded a 31.6% reduction in circuit depth 
+> (128 → 88 layers) and a 31.6% reduction in total gate 
+> count (326 → 223 gates). Among the applied optimization 
+> passes, merge_rotations contributed most substantially, 
+> as consecutive single-qubit rotation gates collapse into 
+> single parametrized operations. The resulting reduction 
+> in two-qubit gate exposure is particularly consequential 
+> for hardware execution, as each eliminated layer directly 
+> reduces coherence-time consumption against Brisbane's 
+> median T₂ timescales (~100–200 µs)."
 
 ## How It Works
 
-```
-Input Circuit → Graph Encoder (21-dim) → QuantumGAT → Optimization Score + Actions
-                                                          ↓
-                                              Qiskit Transpiler (Level 3)
-                                                          ↓
-                                              Optimized Circuit + Explanation
-```
-
-1. **Graph Encoding** — Circuit DAG is converted to a PyTorch Geometric graph with 21-dimensional node features encoding gate type, qubit position, and connectivity.
-2. **GNN Prediction** — A trained Graph Attention Network (3-layer GAT, multi-head attention) predicts optimization potential and recommends specific passes.
-3. **Hardware Compilation** — Qiskit transpiles the circuit at `optimization_level=3` targeting the IBM Brisbane 127-qubit topology.
-4. **Explanation** — Claude API generates a natural-language breakdown of the optimization decisions (falls back to rule-based explanation if no API key).
+1. Your circuit is encoded as a Directed Acyclic Graph
+2. A trained GNN (82% accuracy) predicts optimization 
+   potential and recommends optimization actions
+3. Qiskit transpiler optimizes for target hardware
+4. Claude generates a hardware-specific explanation 
+   you can cite in your paper
 
 ## Supported Algorithms
 
-| Algorithm | Qubits Tested | Avg. Depth Reduction |
-|---|---|---|
-| **VQE** (EfficientSU2) | 4–10 | 42% |
-| **QAOA** | 6–10 | 38% |
-| **QFT** | 4–10 | 45% |
-| **Grover** | 3–8 | 35% |
+VQE, QAOA, QFT, Grover, GHZ, Bernstein-Vazirani, 
+Deutsch-Jozsa, Amplitude Estimation, Phase Estimation
 
-## Target Hardware
+## Supported Hardware
 
-- **IBM Brisbane** (`ibm_brisbane`) — 127-qubit Eagle r3 processor, heavy-hex topology
-- Falls back to `FakeBrisbane` simulator when no IBM Quantum token is available
+- IBM Brisbane (default)
+- More backends coming
 
-## API Reference
+## Configuration
 
-```python
-from quantumopt import compile, CompileResult
+```bash
+# Required for AI explanations
+export ANTHROPIC_API_KEY=your-key-here
 
-result: CompileResult = compile(
-    circuit,                    # Qiskit QuantumCircuit
-    hardware="ibm_brisbane",    # Target backend
-    priority="fidelity",        # "fidelity", "depth", or "speed"
-    explain=True,               # Generate Claude explanation
-    optimization_level=3,       # Qiskit transpiler level (0–3)
-)
-
-# CompileResult fields
-result.optimized_circuit    # Transpiled QuantumCircuit
-result.depth_reduction      # "40%"
-result.gate_reduction       # "47%"
-result.gnn_prediction       # 0.66 (predicted improvement ratio)
-result.recommended_actions  # [{"action": "merge_rotations", "confidence": 0.8}, ...]
-result.explanation          # Natural language optimization breakdown
-result.original_stats       # {"depth": 45, "gate_count": 120, ...}
-result.optimized_stats      # {"depth": 27, "gate_count": 64, ...}
-result.compile_time         # 3.4 (seconds)
+# Optional — for real IBM hardware execution
+export IBM_QUANTUM_TOKEN=your-token-here
 ```
 
 ## Requirements
 
-- Python ≥ 3.9
-- [Qiskit](https://qiskit.org/) ≥ 1.0
-- [PyTorch](https://pytorch.org/) ≥ 2.0
-- [PyTorch Geometric](https://pyg.org/) ≥ 2.4
-- `qiskit-ibm-runtime` (for FakeBrisbane backend)
-- `anthropic` (optional, for Claude explanations)
+- Python 3.10+
+- Qiskit >= 1.0.0
+- PyTorch >= 2.0.0
+- torch-geometric >= 2.4.0
+- anthropic >= 0.20.0 (optional, for explanations)
 
-```bash
-pip install -r requirements.txt
-```
+## Citation
 
-## Environment Variables
-
-| Variable | Required | Description |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | Optional | Enables Claude-powered optimization explanations |
-| `IBM_QUANTUM_TOKEN` | Optional | Connects to real IBM Quantum hardware |
-
-## Project Structure
+If you use quantumopt in your research please cite:
 
 ```
-quantumopt/
-├── compiler.py          # Main compile() pipeline
-├── models/
-│   ├── gat.py           # QuantumGAT (trained model)
-│   ├── gnn.py           # Legacy QuantumCircuitGNN
-│   └── weights/
-│       └── gnn_best.pt  # Trained GAT weights
-├── graph/
-│   ├── encoder.py       # Circuit → PyG graph (21-dim)
-│   └── features.py      # Gate feature vectors
-├── backends/
-│   └── ibm_backend.py   # IBM Quantum transpilation
-└── llm/
-    └── explainer.py     # Claude API explanation
-```
-
-## Running Tests
-
-```bash
-python -m pytest tests/ -v
+Syamala, N. (2025). quantumopt: An AI-driven quantum 
+circuit compiler using Graph Neural Networks and Large 
+Language Models. GitHub.
+https://github.com/nsyamala1/quantumopt
 ```
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT License — free for research and commercial use.
 
-## Citation
+## Contact
 
-```bibtex
-@software{quantumopt2026,
-  title     = {QuantumOpt: GNN-Guided Quantum Circuit Optimization},
-  author    = {Syamala, Naveen},
-  year      = {2026},
-  url       = {https://github.com/Nsyamala1/quantumopt},
-  note      = {Graph Attention Network for quantum circuit optimization prediction}
-}
-```
+Built by Naveen Syamala
+GitHub: [github.com/nsyamala1](https://github.com/nsyamala1)
+Issues: [github.com/nsyamala1/quantumopt/issues](https://github.com/nsyamala1/quantumopt/issues)
