@@ -47,8 +47,13 @@ def explain_optimization(
     if not api_key:
         return None  # triggers fallback template
     
-    import anthropic
-    client = anthropic.Anthropic(api_key=api_key)
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=api_key)
+    except ImportError:
+        import logging
+        logging.warning("Anthropic package not found. Run 'pip install quantumopt[llm]' to enable AI explanations.")
+        return None  # triggers fallback template
     
     depth_change = before_stats['depth'] - after_stats['depth']
     gate_change = before_stats['gate_count'] - after_stats['gate_count']

@@ -36,3 +36,4 @@ benchmark_report.txt
 # OS
 .DS_Store
 Thumbs.db
+test_env/
