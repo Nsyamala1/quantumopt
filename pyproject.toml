@@ -9,3 +9,55 @@ description = "AI-driven quantum circuit compiler using GNN + LLM"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
+authors = [
+    {name = "Naveen Syamala", email = "your@email.com"}
+]
+keywords = [
+    "quantum computing",
+    "quantum compiler", 
+    "circuit optimization",
+    "graph neural network",
+    "qiskit",
+    "ibm quantum",
+    "VQE",
+    "QAOA"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "qiskit>=1.0.0",
+    "qiskit-aer>=0.13.0",
+    "qiskit-ibm-runtime>=0.20.0",
+    "torch>=2.0.0",
+    "torch-geometric>=2.4.0",
+    "networkx>=3.0",
+    "numpy>=1.24.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.20.0"]
+dev = ["pytest>=7.0.0", "pytest-cov>=4.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/nsyamala1/quantumopt"
+Repository = "https://github.com/nsyamala1/quantumopt"
+Issues = "https://github.com/nsyamala1/quantumopt/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["quantumopt*"]
+
+[tool.setuptools.package-data]
+quantumopt = [
+    "models/weights/*.pt",
+    "models/weights/*.json",
+    "models/weights/*.txt",
+]
