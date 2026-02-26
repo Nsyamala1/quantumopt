@@ -14,6 +14,21 @@ optimized version that runs more accurately on IBM
 quantum hardware — with a plain English explanation 
 you can cite in your paper.
 
+## Why Predict Optimization Potential?
+
+When running 100+ circuits on expensive IBM quantum 
+hardware, knowing which circuits will benefit most 
+from optimization helps you:
+
+1. **Prioritize** which circuits to optimize first
+2. **Allocate compute budget** intelligently  
+3. **Skip optimization** for circuits where it adds 
+   overhead without meaningful improvement
+4. **Get a fast estimate** before full transpilation
+
+The GNN prediction takes <1 second vs 3-10 seconds 
+for full compilation.
+
 ## Installation
 
 ```bash
