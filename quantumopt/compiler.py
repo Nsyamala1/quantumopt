@@ -301,6 +301,8 @@ def compile(
         "compile_time_s": round(compile_time, 3),
     }
 
+    print("\n💬 First time using quantumopt? We'd love your feedback: syamalanaveen272@gmail.com or github.com/nsyamala1/quantumopt/issues")
+
     return CompileResult(
         optimized_circuit=compiled_circuit,
         depth_reduction=depth_reduction,
