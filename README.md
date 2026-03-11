@@ -1,7 +1,7 @@
 # quantumopt
 
 > AI-driven quantum circuit compiler using Graph Neural 
-> Networks + Claude LLM — tested on real research circuits
+> Networks + Claude LLM tested on real research circuits
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -11,7 +11,7 @@
 
 quantumopt takes your quantum circuit and returns an 
 optimized version that runs more accurately on IBM 
-quantum hardware — with a plain English explanation 
+quantum hardware with a plain English explanation 
 you can cite in your paper.
 
 ## Why Predict Optimization Potential?
@@ -147,7 +147,7 @@ https://github.com/nsyamala1/quantumopt
 
 ## License
 
-MIT License — free for research and commercial use.
+MIT License free for research and commercial use.
 
 ## Contact
 
