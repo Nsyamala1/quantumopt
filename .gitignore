@@ -37,3 +37,11 @@ benchmark_report.txt
 .DS_Store
 Thumbs.db
 test_env/
+
+# Papers
+quantumopt_paper*
+*.pdf
+*.aux
+*.log
+*.out
+*.tex

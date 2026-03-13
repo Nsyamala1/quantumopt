@@ -1,0 +1,100 @@
+══════════════════════════════════════════════════════════════════════
+QUANTUMOPT BENCHMARK REPORT v3
+Generated: 2026-03-12T18:30:47.141378+00:00
+Method: quantumopt.compile()
+══════════════════════════════════════════════════════════════════════
+
+──────────────────────────────────────────────────────────────────────
+  QAOA CIRCUITS
+──────────────────────────────────────────────────────────────────────
+  Total circuits benchmarked : 100
+
+  IMPROVEMENT SUMMARY
+    Circuits improved  (gate_reduction > 0) : 100.0%
+    Circuits worsened  (gate_reduction < 0) :   0.0%
+    Circuits unchanged (gate_reduction = 0) :   0.0%
+
+  GATE REDUCTION STATISTICS
+    Mean   gate reduction :  +5.65%
+    Median gate reduction :  +1.97%
+    Best   gate reduction : +67.90%
+    Worst  gate reduction :  +0.24%
+
+  DEPTH REDUCTION STATISTICS
+    Mean   depth reduction :  +2.29%
+    Median depth reduction :  +0.00%
+
+  BREAKDOWN BY QUBIT COUNT
+      Qubits   Circuits     Mean Gate Reduction
+      ──────   ────────     ───────────────────
+           4         16                  23.01%
+           6         25                   4.45%
+           8         16                   2.46%
+          10         12                   1.52%
+          12         17                   1.19%
+          16          7                   0.63%
+          20          7                   0.43%
+
+──────────────────────────────────────────────────────────────────────
+  VQE CIRCUITS
+──────────────────────────────────────────────────────────────────────
+  Total circuits benchmarked : 100
+
+  IMPROVEMENT SUMMARY
+    Circuits improved  (gate_reduction > 0) : 100.0%
+    Circuits worsened  (gate_reduction < 0) :   0.0%
+    Circuits unchanged (gate_reduction = 0) :   0.0%
+
+  GATE REDUCTION STATISTICS
+    Mean   gate reduction : +30.37%
+    Median gate reduction : +30.27%
+    Best   gate reduction : +31.37%
+    Worst  gate reduction : +29.63%
+
+  DEPTH REDUCTION STATISTICS
+    Mean   depth reduction : +21.52%
+    Median depth reduction : +21.62%
+
+  BREAKDOWN BY QUBIT COUNT
+      Qubits   Circuits     Mean Gate Reduction
+      ──────   ────────     ───────────────────
+           4         18                  30.67%
+           6         16                  30.43%
+           8         14                  30.32%
+          10         14                  30.37%
+          12         17                  30.30%
+          16         21                  30.16%
+
+──────────────────────────────────────────────────────────────────────
+  IQP CIRCUITS
+──────────────────────────────────────────────────────────────────────
+  Total circuits benchmarked : 100
+
+  IMPROVEMENT SUMMARY
+    Circuits improved  (gate_reduction > 0) : 100.0%
+    Circuits worsened  (gate_reduction < 0) :   0.0%
+    Circuits unchanged (gate_reduction = 0) :   0.0%
+
+  GATE REDUCTION STATISTICS
+    Mean   gate reduction : +48.50%
+    Median gate reduction : +53.85%
+    Best   gate reduction : +79.17%
+    Worst  gate reduction : +23.81%
+
+  DEPTH REDUCTION STATISTICS
+    Mean   depth reduction : +41.24%
+    Median depth reduction : +40.00%
+
+  BREAKDOWN BY QUBIT COUNT
+      Qubits   Circuits     Mean Gate Reduction
+      ──────   ────────     ───────────────────
+           4         25                  53.91%
+           6         18                  45.09%
+           8         18                  49.52%
+          10         13                  48.63%
+          12         12                  46.60%
+          16         14                  43.41%
+
+══════════════════════════════════════════════════════════════════════
+END OF REPORT
+══════════════════════════════════════════════════════════════════════

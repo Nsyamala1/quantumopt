@@ -1,0 +1,6312 @@
+{
+  "generated_at": "2026-03-12T18:30:47.134784+00:00",
+  "method": "quantumopt_compile",
+  "results": {
+    "QAOA": [
+      {
+        "id": "qaoa_0146",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 342,
+          "depth": 84
+        },
+        "after": {
+          "gate_count": 336,
+          "depth": 84
+        },
+        "gate_reduction_pct": 1.75,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 3.3168,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6253440976142883
+      },
+      {
+        "id": "qaoa_0373",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 176,
+          "depth": 58
+        },
+        "after": {
+          "gate_count": 172,
+          "depth": 58
+        },
+        "gate_reduction_pct": 2.27,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0447,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5657219886779785
+      },
+      {
+        "id": "qaoa_0388",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 315,
+          "depth": 93
+        },
+        "after": {
+          "gate_count": 312,
+          "depth": 93
+        },
+        "gate_reduction_pct": 0.95,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.8728,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5271359086036682
+      },
+      {
+        "id": "qaoa_0325",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 69,
+          "depth": 20
+        },
+        "after": {
+          "gate_count": 67,
+          "depth": 20
+        },
+        "gate_reduction_pct": 2.9,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0411,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.622873842716217
+      },
+      {
+        "id": "qaoa_0140",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 328,
+          "depth": 85
+        },
+        "after": {
+          "gate_count": 326,
+          "depth": 85
+        },
+        "gate_reduction_pct": 0.61,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.6619,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5333890318870544
+      },
+      {
+        "id": "qaoa_0200",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 831,
+          "depth": 196
+        },
+        "after": {
+          "gate_count": 816,
+          "depth": 196
+        },
+        "gate_reduction_pct": 1.81,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.2302,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5408369898796082
+      },
+      {
+        "id": "qaoa_0103",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 297,
+          "depth": 87
+        },
+        "after": {
+          "gate_count": 291,
+          "depth": 87
+        },
+        "gate_reduction_pct": 2.02,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.5935,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5021597146987915
+      },
+      {
+        "id": "qaoa_0279",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 20,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 1910,
+          "depth": 328
+        },
+        "after": {
+          "gate_count": 1900,
+          "depth": 328
+        },
+        "gate_reduction_pct": 0.52,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.9689,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5257328748703003
+      },
+      {
+        "id": "qaoa_0169",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 177,
+          "depth": 50
+        },
+        "after": {
+          "gate_count": 174,
+          "depth": 50
+        },
+        "gate_reduction_pct": 1.69,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.9155,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6406777501106262
+      },
+      {
+        "id": "qaoa_0121",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 152,
+          "depth": 44
+        },
+        "after": {
+          "gate_count": 151,
+          "depth": 44
+        },
+        "gate_reduction_pct": 0.66,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.0296,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5830111503601074
+      },
+      {
+        "id": "qaoa_0034",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 157,
+          "depth": 58
+        },
+        "after": {
+          "gate_count": 147,
+          "depth": 58
+        },
+        "gate_reduction_pct": 6.37,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0173,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.4820486009120941
+      },
+      {
+        "id": "qaoa_0054",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 144,
+          "depth": 49
+        },
+        "after": {
+          "gate_count": 142,
+          "depth": 49
+        },
+        "gate_reduction_pct": 1.39,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0659,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5018782019615173
+      },
+      {
+        "id": "qaoa_0193",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 846,
+          "depth": 181
+        },
+        "after": {
+          "gate_count": 841,
+          "depth": 181
+        },
+        "gate_reduction_pct": 0.59,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.2794,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.4878957271575928
+      },
+      {
+        "id": "qaoa_0116",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 434,
+          "depth": 124
+        },
+        "after": {
+          "gate_count": 424,
+          "depth": 124
+        },
+        "gate_reduction_pct": 2.3,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.3331,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5092104077339172
+      },
+      {
+        "id": "qaoa_0070",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 153,
+          "depth": 48
+        },
+        "after": {
+          "gate_count": 135,
+          "depth": 48
+        },
+        "gate_reduction_pct": 11.76,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0193,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6221662759780884
+      },
+      {
+        "id": "qaoa_0335",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 132,
+          "depth": 46
+        },
+        "after": {
+          "gate_count": 130,
+          "depth": 46
+        },
+        "gate_reduction_pct": 1.52,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.033,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5031898617744446
+      },
+      {
+        "id": "qaoa_0362",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 106,
+          "depth": 29
+        },
+        "after": {
+          "gate_count": 103,
+          "depth": 29
+        },
+        "gate_reduction_pct": 2.83,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.9875,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6321088671684265
+      },
+      {
+        "id": "qaoa_0472",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 921,
+          "depth": 226
+        },
+        "after": {
+          "gate_count": 911,
+          "depth": 226
+        },
+        "gate_reduction_pct": 1.09,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.5257,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.49390727281570435
+      },
+      {
+        "id": "qaoa_0323",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 66,
+          "depth": 20
+        },
+        "after": {
+          "gate_count": 64,
+          "depth": 20
+        },
+        "gate_reduction_pct": 3.03,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0271,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5928391814231873
+      },
+      {
+        "id": "qaoa_0320",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 172,
+          "depth": 76
+        },
+        "after": {
+          "gate_count": 167,
+          "depth": 76
+        },
+        "gate_reduction_pct": 2.91,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0185,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.4920464754104614
+      },
+      {
+        "id": "qaoa_0290",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 41,
+          "depth": 17
+        },
+        "after": {
+          "gate_count": 40,
+          "depth": 17
+        },
+        "gate_reduction_pct": 2.44,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0162,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6054605841636658
+      },
+      {
+        "id": "qaoa_0275",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 20,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 1925,
+          "depth": 337
+        },
+        "after": {
+          "gate_count": 1915,
+          "depth": 337
+        },
+        "gate_reduction_pct": 0.52,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.8919,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5650190711021423
+      },
+      {
+        "id": "qaoa_0082",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 112,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 111,
+          "depth": 38
+        },
+        "gate_reduction_pct": 0.89,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.242,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5705430507659912
+      },
+      {
+        "id": "qaoa_0429",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 360,
+          "depth": 105
+        },
+        "after": {
+          "gate_count": 354,
+          "depth": 105
+        },
+        "gate_reduction_pct": 1.67,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.9601,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.600009560585022
+      },
+      {
+        "id": "qaoa_0111",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 464,
+          "depth": 136
+        },
+        "after": {
+          "gate_count": 454,
+          "depth": 136
+        },
+        "gate_reduction_pct": 2.16,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.1408,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.4901539385318756
+      },
+      {
+        "id": "qaoa_0181",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 567,
+          "depth": 123
+        },
+        "after": {
+          "gate_count": 558,
+          "depth": 123
+        },
+        "gate_reduction_pct": 1.59,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.2744,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5608233213424683
+      },
+      {
+        "id": "qaoa_0395",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 404,
+          "depth": 124
+        },
+        "after": {
+          "gate_count": 369,
+          "depth": 124
+        },
+        "gate_reduction_pct": 8.66,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0547,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5288981795310974
+      },
+      {
+        "id": "qaoa_0321",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 66,
+          "depth": 20
+        },
+        "after": {
+          "gate_count": 63,
+          "depth": 20
+        },
+        "gate_reduction_pct": 4.55,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.02,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6355597972869873
+      },
+      {
+        "id": "qaoa_0406",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 152,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 150,
+          "depth": 35
+        },
+        "gate_reduction_pct": 1.32,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.0662,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5739850401878357
+      },
+      {
+        "id": "qaoa_0020",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 58,
+          "depth": 19
+        },
+        "after": {
+          "gate_count": 26,
+          "depth": 13
+        },
+        "gate_reduction_pct": 55.17,
+        "depth_reduction_pct": 31.58,
+        "compile_time_s": 0.0175,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6961612701416016
+      },
+      {
+        "id": "qaoa_0114",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 434,
+          "depth": 139
+        },
+        "after": {
+          "gate_count": 424,
+          "depth": 139
+        },
+        "gate_reduction_pct": 2.3,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.1603,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.48058515787124634
+      },
+      {
+        "id": "qaoa_0083",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 100,
+          "depth": 32
+        },
+        "after": {
+          "gate_count": 98,
+          "depth": 32
+        },
+        "gate_reduction_pct": 2.0,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.056,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.61463862657547
+      },
+      {
+        "id": "qaoa_0078",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 258,
+          "depth": 73
+        },
+        "after": {
+          "gate_count": 248,
+          "depth": 73
+        },
+        "gate_reduction_pct": 3.88,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0251,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.4849409759044647
+      },
+      {
+        "id": "qaoa_0266",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 20,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 1161,
+          "depth": 222
+        },
+        "after": {
+          "gate_count": 1155,
+          "depth": 222
+        },
+        "gate_reduction_pct": 0.52,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.7356,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5317357182502747
+      },
+      {
+        "id": "qaoa_0149",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 396,
+          "depth": 102
+        },
+        "after": {
+          "gate_count": 390,
+          "depth": 102
+        },
+        "gate_reduction_pct": 1.52,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.0873,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5015668869018555
+      },
+      {
+        "id": "qaoa_0294",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 82,
+          "depth": 37
+        },
+        "after": {
+          "gate_count": 80,
+          "depth": 37
+        },
+        "gate_reduction_pct": 2.44,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0183,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.49499085545539856
+      },
+      {
+        "id": "qaoa_0336",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 150,
+          "depth": 58
+        },
+        "after": {
+          "gate_count": 148,
+          "depth": 58
+        },
+        "gate_reduction_pct": 1.33,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.2068,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5003892183303833
+      },
+      {
+        "id": "qaoa_0454",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 330,
+          "depth": 85
+        },
+        "after": {
+          "gate_count": 326,
+          "depth": 85
+        },
+        "gate_reduction_pct": 1.21,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.1496,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5860302448272705
+      },
+      {
+        "id": "qaoa_0167",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 201,
+          "depth": 56
+        },
+        "after": {
+          "gate_count": 199,
+          "depth": 56
+        },
+        "gate_reduction_pct": 1.0,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.3865,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6069022417068481
+      },
+      {
+        "id": "qaoa_0022",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 81,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 27,
+          "depth": 13
+        },
+        "gate_reduction_pct": 66.67,
+        "depth_reduction_pct": 51.85,
+        "compile_time_s": 0.0197,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6745057106018066
+      },
+      {
+        "id": "qaoa_0125",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 140,
+          "depth": 41
+        },
+        "after": {
+          "gate_count": 138,
+          "depth": 41
+        },
+        "gate_reduction_pct": 1.43,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.0454,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6063081622123718
+      },
+      {
+        "id": "qaoa_0329",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 75,
+          "depth": 29
+        },
+        "after": {
+          "gate_count": 73,
+          "depth": 29
+        },
+        "gate_reduction_pct": 2.67,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0383,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6190558671951294
+      },
+      {
+        "id": "qaoa_0424",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 351,
+          "depth": 102
+        },
+        "after": {
+          "gate_count": 342,
+          "depth": 102
+        },
+        "gate_reduction_pct": 2.56,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.819,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5158750414848328
+      },
+      {
+        "id": "qaoa_0351",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 318,
+          "depth": 121
+        },
+        "after": {
+          "gate_count": 303,
+          "depth": 121
+        },
+        "gate_reduction_pct": 4.72,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0298,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5186551809310913
+      },
+      {
+        "id": "qaoa_0166",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 201,
+          "depth": 56
+        },
+        "after": {
+          "gate_count": 199,
+          "depth": 56
+        },
+        "gate_reduction_pct": 1.0,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.0747,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5852147936820984
+      },
+      {
+        "id": "qaoa_0243",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 20,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 454,
+          "depth": 107
+        },
+        "after": {
+          "gate_count": 452,
+          "depth": 107
+        },
+        "gate_reduction_pct": 0.44,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.8281,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5962664484977722
+      },
+      {
+        "id": "qaoa_0353",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 288,
+          "depth": 106
+        },
+        "after": {
+          "gate_count": 273,
+          "depth": 106
+        },
+        "gate_reduction_pct": 5.21,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0222,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6051968932151794
+      },
+      {
+        "id": "qaoa_0459",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 384,
+          "depth": 94
+        },
+        "after": {
+          "gate_count": 382,
+          "depth": 94
+        },
+        "gate_reduction_pct": 0.52,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.1835,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5022472739219666
+      },
+      {
+        "id": "qaoa_0012",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 64,
+          "depth": 19
+        },
+        "after": {
+          "gate_count": 40,
+          "depth": 11
+        },
+        "gate_reduction_pct": 37.5,
+        "depth_reduction_pct": 42.11,
+        "compile_time_s": 0.0166,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5972591638565063
+      },
+      {
+        "id": "qaoa_0062",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 162,
+          "depth": 60
+        },
+        "after": {
+          "gate_count": 156,
+          "depth": 60
+        },
+        "gate_reduction_pct": 3.7,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0172,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.637597918510437
+      },
+      {
+        "id": "qaoa_0139",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 274,
+          "depth": 70
+        },
+        "after": {
+          "gate_count": 272,
+          "depth": 70
+        },
+        "gate_reduction_pct": 0.73,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.3373,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5366361141204834
+      },
+      {
+        "id": "qaoa_0485",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 16,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 323,
+          "depth": 77
+        },
+        "after": {
+          "gate_count": 321,
+          "depth": 77
+        },
+        "gate_reduction_pct": 0.62,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.2097,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5678513050079346
+      },
+      {
+        "id": "qaoa_0201",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 16,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 311,
+          "depth": 68
+        },
+        "after": {
+          "gate_count": 309,
+          "depth": 68
+        },
+        "gate_reduction_pct": 0.64,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.9308,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5840204954147339
+      },
+      {
+        "id": "qaoa_0327",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 63,
+          "depth": 20
+        },
+        "after": {
+          "gate_count": 55,
+          "depth": 20
+        },
+        "gate_reduction_pct": 12.7,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0166,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6531667113304138
+      },
+      {
+        "id": "qaoa_0466",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 468,
+          "depth": 99
+        },
+        "after": {
+          "gate_count": 462,
+          "depth": 99
+        },
+        "gate_reduction_pct": 1.28,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.0486,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5658403635025024
+      },
+      {
+        "id": "qaoa_0006",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 35,
+          "depth": 11
+        },
+        "after": {
+          "gate_count": 24,
+          "depth": 11
+        },
+        "gate_reduction_pct": 31.43,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0152,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.7843760251998901
+      },
+      {
+        "id": "qaoa_0447",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 174,
+          "depth": 53
+        },
+        "after": {
+          "gate_count": 170,
+          "depth": 53
+        },
+        "gate_reduction_pct": 2.3,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.8892,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6235455274581909
+      },
+      {
+        "id": "qaoa_0030",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 90,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 40,
+          "depth": 13
+        },
+        "gate_reduction_pct": 55.56,
+        "depth_reduction_pct": 51.85,
+        "compile_time_s": 0.0175,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5539773106575012
+      },
+      {
+        "id": "qaoa_0435",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 565,
+          "depth": 142
+        },
+        "after": {
+          "gate_count": 555,
+          "depth": 142
+        },
+        "gate_reduction_pct": 1.77,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.605,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5176477432250977
+      },
+      {
+        "id": "qaoa_0292",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 82,
+          "depth": 37
+        },
+        "after": {
+          "gate_count": 78,
+          "depth": 37
+        },
+        "gate_reduction_pct": 4.88,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0163,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5139482021331787
+      },
+      {
+        "id": "qaoa_0032",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 172,
+          "depth": 76
+        },
+        "after": {
+          "gate_count": 162,
+          "depth": 76
+        },
+        "gate_reduction_pct": 5.81,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0163,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.4934653639793396
+      },
+      {
+        "id": "qaoa_0079",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 243,
+          "depth": 73
+        },
+        "after": {
+          "gate_count": 233,
+          "depth": 73
+        },
+        "gate_reduction_pct": 4.12,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0195,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5109276175498962
+      },
+      {
+        "id": "qaoa_0164",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 213,
+          "depth": 65
+        },
+        "after": {
+          "gate_count": 211,
+          "depth": 65
+        },
+        "gate_reduction_pct": 0.94,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.2762,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6077309250831604
+      },
+      {
+        "id": "qaoa_0086",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 97,
+          "depth": 29
+        },
+        "after": {
+          "gate_count": 96,
+          "depth": 29
+        },
+        "gate_reduction_pct": 1.03,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.1494,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.614834189414978
+      },
+      {
+        "id": "qaoa_0016",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 82,
+          "depth": 40
+        },
+        "after": {
+          "gate_count": 80,
+          "depth": 40
+        },
+        "gate_reduction_pct": 2.44,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.017,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.49699896574020386
+      },
+      {
+        "id": "qaoa_0493",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 16,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 586,
+          "depth": 130
+        },
+        "after": {
+          "gate_count": 584,
+          "depth": 130
+        },
+        "gate_reduction_pct": 0.34,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.1562,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5492672920227051
+      },
+      {
+        "id": "qaoa_0206",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 16,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 281,
+          "depth": 65
+        },
+        "after": {
+          "gate_count": 278,
+          "depth": 65
+        },
+        "gate_reduction_pct": 1.07,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.1876,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6211945414543152
+      },
+      {
+        "id": "qaoa_0056",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 120,
+          "depth": 40
+        },
+        "after": {
+          "gate_count": 116,
+          "depth": 40
+        },
+        "gate_reduction_pct": 3.33,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0319,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5161138772964478
+      },
+      {
+        "id": "qaoa_0317",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 172,
+          "depth": 73
+        },
+        "after": {
+          "gate_count": 162,
+          "depth": 73
+        },
+        "gate_reduction_pct": 5.81,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0176,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5032157897949219
+      },
+      {
+        "id": "qaoa_0215",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 16,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 634,
+          "depth": 133
+        },
+        "after": {
+          "gate_count": 630,
+          "depth": 133
+        },
+        "gate_reduction_pct": 0.63,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.4131,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5740739107131958
+      },
+      {
+        "id": "qaoa_0058",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 120,
+          "depth": 34
+        },
+        "after": {
+          "gate_count": 116,
+          "depth": 34
+        },
+        "gate_reduction_pct": 3.33,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0457,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5306838750839233
+      },
+      {
+        "id": "qaoa_0355",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 318,
+          "depth": 109
+        },
+        "after": {
+          "gate_count": 313,
+          "depth": 109
+        },
+        "gate_reduction_pct": 1.57,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0529,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5755105018615723
+      },
+      {
+        "id": "qaoa_0031",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 187,
+          "depth": 91
+        },
+        "after": {
+          "gate_count": 182,
+          "depth": 91
+        },
+        "gate_reduction_pct": 2.67,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0177,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.46825674176216125
+      },
+      {
+        "id": "qaoa_0332",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 132,
+          "depth": 43
+        },
+        "after": {
+          "gate_count": 130,
+          "depth": 43
+        },
+        "gate_reduction_pct": 1.52,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0291,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5678278207778931
+      },
+      {
+        "id": "qaoa_0349",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 180,
+          "depth": 57
+        },
+        "after": {
+          "gate_count": 174,
+          "depth": 57
+        },
+        "gate_reduction_pct": 3.33,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0273,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5049905180931091
+      },
+      {
+        "id": "qaoa_0405",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 155,
+          "depth": 44
+        },
+        "after": {
+          "gate_count": 152,
+          "depth": 44
+        },
+        "gate_reduction_pct": 1.94,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.1436,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6026260852813721
+      },
+      {
+        "id": "qaoa_0352",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 303,
+          "depth": 94
+        },
+        "after": {
+          "gate_count": 298,
+          "depth": 94
+        },
+        "gate_reduction_pct": 1.65,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0472,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5065378546714783
+      },
+      {
+        "id": "qaoa_0168",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 189,
+          "depth": 50
+        },
+        "after": {
+          "gate_count": 187,
+          "depth": 50
+        },
+        "gate_reduction_pct": 1.06,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.086,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5500732064247131
+      },
+      {
+        "id": "qaoa_0264",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 20,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 1188,
+          "depth": 204
+        },
+        "after": {
+          "gate_count": 1182,
+          "depth": 204
+        },
+        "gate_reduction_pct": 0.51,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.9508,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5192936658859253
+      },
+      {
+        "id": "qaoa_0274",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 20,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 1850,
+          "depth": 262
+        },
+        "after": {
+          "gate_count": 1845,
+          "depth": 262
+        },
+        "gate_reduction_pct": 0.27,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.9649,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.560433566570282
+      },
+      {
+        "id": "qaoa_0382",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 270,
+          "depth": 81
+        },
+        "after": {
+          "gate_count": 267,
+          "depth": 81
+        },
+        "gate_reduction_pct": 1.11,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.2047,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.4807746410369873
+      },
+      {
+        "id": "qaoa_0173",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 324,
+          "depth": 76
+        },
+        "after": {
+          "gate_count": 320,
+          "depth": 76
+        },
+        "gate_reduction_pct": 1.23,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.8314,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5362668633460999
+      },
+      {
+        "id": "qaoa_0334",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 102,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 88,
+          "depth": 31
+        },
+        "gate_reduction_pct": 13.73,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0164,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6619406938552856
+      },
+      {
+        "id": "qaoa_0452",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 336,
+          "depth": 94
+        },
+        "after": {
+          "gate_count": 334,
+          "depth": 94
+        },
+        "gate_reduction_pct": 0.6,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.0481,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5109286308288574
+      },
+      {
+        "id": "qaoa_0057",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 126,
+          "depth": 46
+        },
+        "after": {
+          "gate_count": 114,
+          "depth": 46
+        },
+        "gate_reduction_pct": 9.52,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0302,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5013449788093567
+      },
+      {
+        "id": "qaoa_0303",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 99,
+          "depth": 45
+        },
+        "after": {
+          "gate_count": 81,
+          "depth": 45
+        },
+        "gate_reduction_pct": 18.18,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0167,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.507746160030365
+      },
+      {
+        "id": "qaoa_0189",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 540,
+          "depth": 126
+        },
+        "after": {
+          "gate_count": 534,
+          "depth": 126
+        },
+        "gate_reduction_pct": 1.11,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.5439,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5819499492645264
+      },
+      {
+        "id": "qaoa_0044",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 75,
+          "depth": 20
+        },
+        "after": {
+          "gate_count": 73,
+          "depth": 20
+        },
+        "gate_reduction_pct": 2.67,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0497,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6044194102287292
+      },
+      {
+        "id": "qaoa_0328",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 75,
+          "depth": 26
+        },
+        "after": {
+          "gate_count": 73,
+          "depth": 26
+        },
+        "gate_reduction_pct": 2.67,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0228,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5991278290748596
+      },
+      {
+        "id": "qaoa_0029",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 4,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 81,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 26,
+          "depth": 13
+        },
+        "gate_reduction_pct": 67.9,
+        "depth_reduction_pct": 51.85,
+        "compile_time_s": 0.0147,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6338231563568115
+      },
+      {
+        "id": "qaoa_0220",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 16,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 634,
+          "depth": 136
+        },
+        "after": {
+          "gate_count": 632,
+          "depth": 136
+        },
+        "gate_reduction_pct": 0.32,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.2806,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5237773656845093
+      },
+      {
+        "id": "qaoa_0393",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 404,
+          "depth": 124
+        },
+        "after": {
+          "gate_count": 394,
+          "depth": 124
+        },
+        "gate_reduction_pct": 2.48,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0686,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5004875063896179
+      },
+      {
+        "id": "qaoa_0364",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 97,
+          "depth": 29
+        },
+        "after": {
+          "gate_count": 94,
+          "depth": 29
+        },
+        "gate_reduction_pct": 3.09,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.0748,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6146198511123657
+      },
+      {
+        "id": "qaoa_0107",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 252,
+          "depth": 69
+        },
+        "after": {
+          "gate_count": 246,
+          "depth": 69
+        },
+        "gate_reduction_pct": 2.38,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.1782,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5671860575675964
+      },
+      {
+        "id": "qaoa_0265",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 20,
+          "p_layers": 3
+        },
+        "before": {
+          "gate_count": 1269,
+          "depth": 213
+        },
+        "after": {
+          "gate_count": 1266,
+          "depth": 213
+        },
+        "gate_reduction_pct": 0.24,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.8534,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5557267665863037
+      },
+      {
+        "id": "qaoa_0417",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 10,
+          "p_layers": 2
+        },
+        "before": {
+          "gate_count": 262,
+          "depth": 64
+        },
+        "after": {
+          "gate_count": 256,
+          "depth": 64
+        },
+        "gate_reduction_pct": 2.29,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.8752,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5602436065673828
+      },
+      {
+        "id": "qaoa_0366",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 8,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 103,
+          "depth": 26
+        },
+        "after": {
+          "gate_count": 100,
+          "depth": 26
+        },
+        "gate_reduction_pct": 2.91,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.6545,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6096732020378113
+      },
+      {
+        "id": "qaoa_0238",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 16,
+          "p_layers": 5
+        },
+        "before": {
+          "gate_count": 1303,
+          "depth": 274
+        },
+        "after": {
+          "gate_count": 1293,
+          "depth": 274
+        },
+        "gate_reduction_pct": 0.77,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.0592,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5469978451728821
+      },
+      {
+        "id": "qaoa_0445",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 12,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 171,
+          "depth": 41
+        },
+        "after": {
+          "gate_count": 169,
+          "depth": 41
+        },
+        "gate_reduction_pct": 1.17,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 1.0713,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5674505829811096
+      },
+      {
+        "id": "qaoa_0042",
+        "type": "QAOA",
+        "config": {
+          "n_qubits": 6,
+          "p_layers": 1
+        },
+        "before": {
+          "gate_count": 66,
+          "depth": 20
+        },
+        "after": {
+          "gate_count": 63,
+          "depth": 20
+        },
+        "gate_reduction_pct": 4.55,
+        "depth_reduction_pct": 0.0,
+        "compile_time_s": 0.021,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6320474147796631
+      }
+    ],
+    "VQE": [
+      {
+        "id": "vqe_0422",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 321,
+          "depth": 39
+        },
+        "after": {
+          "gate_count": 225,
+          "depth": 31
+        },
+        "gate_reduction_pct": 29.91,
+        "depth_reduction_pct": 20.51,
+        "compile_time_s": 0.3869,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6769078969955444
+      },
+      {
+        "id": "vqe_0220",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 318,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 222,
+          "depth": 29
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 17.14,
+        "compile_time_s": 0.3242,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6839836835861206
+      },
+      {
+        "id": "vqe_0473",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 540,
+          "depth": 51
+        },
+        "after": {
+          "gate_count": 380,
+          "depth": 41
+        },
+        "gate_reduction_pct": 29.63,
+        "depth_reduction_pct": 19.61,
+        "compile_time_s": 0.3442,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6973105669021606
+      },
+      {
+        "id": "vqe_0239",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 540,
+          "depth": 51
+        },
+        "after": {
+          "gate_count": 380,
+          "depth": 41
+        },
+        "gate_reduction_pct": 29.63,
+        "depth_reduction_pct": 19.61,
+        "compile_time_s": 0.3364,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6973105669021606
+      },
+      {
+        "id": "vqe_0237",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 540,
+          "depth": 51
+        },
+        "after": {
+          "gate_count": 380,
+          "depth": 41
+        },
+        "gate_reduction_pct": 29.63,
+        "depth_reduction_pct": 19.61,
+        "compile_time_s": 0.342,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6973105669021606
+      },
+      {
+        "id": "vqe_0105",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 213,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 149,
+          "depth": 27
+        },
+        "gate_reduction_pct": 30.05,
+        "depth_reduction_pct": 22.86,
+        "compile_time_s": 0.0541,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6497594714164734
+      },
+      {
+        "id": "vqe_0464",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 429,
+          "depth": 43
+        },
+        "after": {
+          "gate_count": 301,
+          "depth": 35
+        },
+        "gate_reduction_pct": 29.84,
+        "depth_reduction_pct": 18.6,
+        "compile_time_s": 0.454,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.689518392086029
+      },
+      {
+        "id": "vqe_0176",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 238,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 166,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.25,
+        "depth_reduction_pct": 19.35,
+        "compile_time_s": 0.39,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.672894299030304
+      },
+      {
+        "id": "vqe_0449",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 207,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 143,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.92,
+        "depth_reduction_pct": 14.81,
+        "compile_time_s": 0.3198,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.7008213996887207
+      },
+      {
+        "id": "vqe_0150",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 267,
+          "depth": 37
+        },
+        "after": {
+          "gate_count": 187,
+          "depth": 29
+        },
+        "gate_reduction_pct": 29.96,
+        "depth_reduction_pct": 21.62,
+        "compile_time_s": 0.1946,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6669575572013855
+      },
+      {
+        "id": "vqe_0443",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 207,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 143,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.92,
+        "depth_reduction_pct": 14.81,
+        "compile_time_s": 0.3221,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.7008213996887207
+      },
+      {
+        "id": "vqe_0124",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 129,
+          "depth": 21
+        },
+        "after": {
+          "gate_count": 89,
+          "depth": 17
+        },
+        "gate_reduction_pct": 31.01,
+        "depth_reduction_pct": 19.05,
+        "compile_time_s": 0.2256,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6904081106185913
+      },
+      {
+        "id": "vqe_0201",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 207,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 143,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.92,
+        "depth_reduction_pct": 14.81,
+        "compile_time_s": 0.336,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.7008213996887207
+      },
+      {
+        "id": "vqe_0102",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 213,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 149,
+          "depth": 27
+        },
+        "gate_reduction_pct": 30.05,
+        "depth_reduction_pct": 22.86,
+        "compile_time_s": 0.0671,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6497594714164734
+      },
+      {
+        "id": "vqe_0370",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 129,
+          "depth": 21
+        },
+        "after": {
+          "gate_count": 89,
+          "depth": 17
+        },
+        "gate_reduction_pct": 31.01,
+        "depth_reduction_pct": 19.05,
+        "compile_time_s": 0.2656,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6904081106185913
+      },
+      {
+        "id": "vqe_0377",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 198,
+          "depth": 29
+        },
+        "after": {
+          "gate_count": 138,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.3,
+        "depth_reduction_pct": 20.69,
+        "compile_time_s": 0.1814,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6636011600494385
+      },
+      {
+        "id": "vqe_0090",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 103,
+          "depth": 19
+        },
+        "after": {
+          "gate_count": 71,
+          "depth": 15
+        },
+        "gate_reduction_pct": 31.07,
+        "depth_reduction_pct": 21.05,
+        "compile_time_s": 0.0803,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6835989356040955
+      },
+      {
+        "id": "vqe_0099",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 158,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 110,
+          "depth": 21
+        },
+        "gate_reduction_pct": 30.38,
+        "depth_reduction_pct": 22.22,
+        "compile_time_s": 0.0844,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6510056853294373
+      },
+      {
+        "id": "vqe_0367",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 129,
+          "depth": 21
+        },
+        "after": {
+          "gate_count": 89,
+          "depth": 17
+        },
+        "gate_reduction_pct": 31.01,
+        "depth_reduction_pct": 19.05,
+        "compile_time_s": 0.4093,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6904081106185913
+      },
+      {
+        "id": "vqe_0468",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 429,
+          "depth": 43
+        },
+        "after": {
+          "gate_count": 301,
+          "depth": 35
+        },
+        "gate_reduction_pct": 29.84,
+        "depth_reduction_pct": 18.6,
+        "compile_time_s": 0.3533,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.689518392086029
+      },
+      {
+        "id": "vqe_0378",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 198,
+          "depth": 29
+        },
+        "after": {
+          "gate_count": 138,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.3,
+        "depth_reduction_pct": 20.69,
+        "compile_time_s": 0.1959,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6636011600494385
+      },
+      {
+        "id": "vqe_0077",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 200,
+          "depth": 41
+        },
+        "after": {
+          "gate_count": 140,
+          "depth": 31
+        },
+        "gate_reduction_pct": 30.0,
+        "depth_reduction_pct": 24.39,
+        "compile_time_s": 0.021,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6185524463653564
+      },
+      {
+        "id": "vqe_0486",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 51,
+          "depth": 15
+        },
+        "after": {
+          "gate_count": 35,
+          "depth": 11
+        },
+        "gate_reduction_pct": 31.37,
+        "depth_reduction_pct": 26.67,
+        "compile_time_s": 0.0153,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6654988527297974
+      },
+      {
+        "id": "vqe_0496",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 54,
+          "depth": 17
+        },
+        "gate_reduction_pct": 30.77,
+        "depth_reduction_pct": 26.09,
+        "compile_time_s": 0.0158,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.598433256149292
+      },
+      {
+        "id": "vqe_0280",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 132,
+          "depth": 39
+        },
+        "after": {
+          "gate_count": 92,
+          "depth": 29
+        },
+        "gate_reduction_pct": 30.3,
+        "depth_reduction_pct": 25.64,
+        "compile_time_s": 0.0153,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5655194520950317
+      },
+      {
+        "id": "vqe_0079",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 200,
+          "depth": 41
+        },
+        "after": {
+          "gate_count": 140,
+          "depth": 31
+        },
+        "gate_reduction_pct": 30.0,
+        "depth_reduction_pct": 24.39,
+        "compile_time_s": 0.022,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6185524463653564
+      },
+      {
+        "id": "vqe_0217",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 318,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 222,
+          "depth": 29
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 17.14,
+        "compile_time_s": 0.3204,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6839836835861206
+      },
+      {
+        "id": "vqe_0229",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 429,
+          "depth": 43
+        },
+        "after": {
+          "gate_count": 301,
+          "depth": 35
+        },
+        "gate_reduction_pct": 29.84,
+        "depth_reduction_pct": 18.6,
+        "compile_time_s": 0.3319,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.689518392086029
+      },
+      {
+        "id": "vqe_0308",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 159,
+          "depth": 33
+        },
+        "after": {
+          "gate_count": 111,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 24.24,
+        "compile_time_s": 0.0191,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6197898983955383
+      },
+      {
+        "id": "vqe_0418",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 238,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 166,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.25,
+        "depth_reduction_pct": 19.35,
+        "compile_time_s": 0.393,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.672894299030304
+      },
+      {
+        "id": "vqe_0310",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 159,
+          "depth": 33
+        },
+        "after": {
+          "gate_count": 111,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 24.24,
+        "compile_time_s": 0.0204,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6197898983955383
+      },
+      {
+        "id": "vqe_0268",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 105,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 73,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.48,
+        "depth_reduction_pct": 25.81,
+        "compile_time_s": 0.0155,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5788846015930176
+      },
+      {
+        "id": "vqe_0020",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 54,
+          "depth": 17
+        },
+        "gate_reduction_pct": 30.77,
+        "depth_reduction_pct": 26.09,
+        "compile_time_s": 0.0155,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.598433256149292
+      },
+      {
+        "id": "vqe_0467",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 429,
+          "depth": 43
+        },
+        "after": {
+          "gate_count": 301,
+          "depth": 35
+        },
+        "gate_reduction_pct": 29.84,
+        "depth_reduction_pct": 18.6,
+        "compile_time_s": 0.3346,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.689518392086029
+      },
+      {
+        "id": "vqe_0238",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 540,
+          "depth": 51
+        },
+        "after": {
+          "gate_count": 380,
+          "depth": 41
+        },
+        "gate_reduction_pct": 29.63,
+        "depth_reduction_pct": 19.61,
+        "compile_time_s": 0.3318,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6973105669021606
+      },
+      {
+        "id": "vqe_0155",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 336,
+          "depth": 45
+        },
+        "after": {
+          "gate_count": 236,
+          "depth": 35
+        },
+        "gate_reduction_pct": 29.76,
+        "depth_reduction_pct": 22.22,
+        "compile_time_s": 0.197,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6721276044845581
+      },
+      {
+        "id": "vqe_0302",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 159,
+          "depth": 33
+        },
+        "after": {
+          "gate_count": 111,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 24.24,
+        "compile_time_s": 0.018,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6197898983955383
+      },
+      {
+        "id": "vqe_0480",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 540,
+          "depth": 51
+        },
+        "after": {
+          "gate_count": 380,
+          "depth": 41
+        },
+        "gate_reduction_pct": 29.63,
+        "depth_reduction_pct": 19.61,
+        "compile_time_s": 0.3515,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6973105669021606
+      },
+      {
+        "id": "vqe_0113",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 268,
+          "depth": 43
+        },
+        "after": {
+          "gate_count": 188,
+          "depth": 33
+        },
+        "gate_reduction_pct": 29.85,
+        "depth_reduction_pct": 23.26,
+        "compile_time_s": 0.0462,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6533403396606445
+      },
+      {
+        "id": "vqe_0064",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 159,
+          "depth": 33
+        },
+        "after": {
+          "gate_count": 111,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 24.24,
+        "compile_time_s": 0.0201,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6197898983955383
+      },
+      {
+        "id": "vqe_0260",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 54,
+          "depth": 17
+        },
+        "gate_reduction_pct": 30.77,
+        "depth_reduction_pct": 26.09,
+        "compile_time_s": 0.0167,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.598433256149292
+      },
+      {
+        "id": "vqe_0369",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 129,
+          "depth": 21
+        },
+        "after": {
+          "gate_count": 89,
+          "depth": 17
+        },
+        "gate_reduction_pct": 31.01,
+        "depth_reduction_pct": 19.05,
+        "compile_time_s": 0.2472,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6904081106185913
+      },
+      {
+        "id": "vqe_0072",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 200,
+          "depth": 41
+        },
+        "after": {
+          "gate_count": 140,
+          "depth": 31
+        },
+        "gate_reduction_pct": 30.0,
+        "depth_reduction_pct": 24.39,
+        "compile_time_s": 0.0222,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6185524463653564
+      },
+      {
+        "id": "vqe_0431",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 404,
+          "depth": 47
+        },
+        "after": {
+          "gate_count": 284,
+          "depth": 37
+        },
+        "gate_reduction_pct": 29.7,
+        "depth_reduction_pct": 21.28,
+        "compile_time_s": 0.3924,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6836983561515808
+      },
+      {
+        "id": "vqe_0279",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 132,
+          "depth": 39
+        },
+        "after": {
+          "gate_count": 92,
+          "depth": 29
+        },
+        "gate_reduction_pct": 30.3,
+        "depth_reduction_pct": 25.64,
+        "compile_time_s": 0.0157,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5655194520950317
+      },
+      {
+        "id": "vqe_0332",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 158,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 110,
+          "depth": 21
+        },
+        "gate_reduction_pct": 30.38,
+        "depth_reduction_pct": 22.22,
+        "compile_time_s": 0.0636,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6510056853294373
+      },
+      {
+        "id": "vqe_0388",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 267,
+          "depth": 37
+        },
+        "after": {
+          "gate_count": 187,
+          "depth": 29
+        },
+        "gate_reduction_pct": 29.96,
+        "depth_reduction_pct": 21.62,
+        "compile_time_s": 0.2317,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6669575572013855
+      },
+      {
+        "id": "vqe_0484",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 51,
+          "depth": 15
+        },
+        "after": {
+          "gate_count": 35,
+          "depth": 11
+        },
+        "gate_reduction_pct": 31.37,
+        "depth_reduction_pct": 26.67,
+        "compile_time_s": 0.0152,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6654988527297974
+      },
+      {
+        "id": "vqe_0401",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 155,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 107,
+          "depth": 19
+        },
+        "gate_reduction_pct": 30.97,
+        "depth_reduction_pct": 17.39,
+        "compile_time_s": 0.3817,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6948347687721252
+      },
+      {
+        "id": "vqe_0096",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 158,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 110,
+          "depth": 21
+        },
+        "gate_reduction_pct": 30.38,
+        "depth_reduction_pct": 22.22,
+        "compile_time_s": 0.0508,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6510056853294373
+      },
+      {
+        "id": "vqe_0026",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 105,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 73,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.48,
+        "depth_reduction_pct": 25.81,
+        "compile_time_s": 0.0159,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5788846015930176
+      },
+      {
+        "id": "vqe_0168",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 155,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 107,
+          "depth": 19
+        },
+        "gate_reduction_pct": 30.97,
+        "depth_reduction_pct": 17.39,
+        "compile_time_s": 0.3798,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6948347687721252
+      },
+      {
+        "id": "vqe_0046",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 77,
+          "depth": 17
+        },
+        "after": {
+          "gate_count": 53,
+          "depth": 13
+        },
+        "gate_reduction_pct": 31.17,
+        "depth_reduction_pct": 23.53,
+        "compile_time_s": 0.0207,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6757257580757141
+      },
+      {
+        "id": "vqe_0175",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 238,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 166,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.25,
+        "depth_reduction_pct": 19.35,
+        "compile_time_s": 0.3765,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.672894299030304
+      },
+      {
+        "id": "vqe_0257",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 54,
+          "depth": 17
+        },
+        "gate_reduction_pct": 30.77,
+        "depth_reduction_pct": 26.09,
+        "compile_time_s": 0.0152,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.598433256149292
+      },
+      {
+        "id": "vqe_0396",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 336,
+          "depth": 45
+        },
+        "after": {
+          "gate_count": 236,
+          "depth": 35
+        },
+        "gate_reduction_pct": 29.76,
+        "depth_reduction_pct": 22.22,
+        "compile_time_s": 0.1732,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6721276044845581
+      },
+      {
+        "id": "vqe_0159",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 336,
+          "depth": 45
+        },
+        "after": {
+          "gate_count": 236,
+          "depth": 35
+        },
+        "gate_reduction_pct": 29.76,
+        "depth_reduction_pct": 22.22,
+        "compile_time_s": 0.1647,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6721276044845581
+      },
+      {
+        "id": "vqe_0463",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 429,
+          "depth": 43
+        },
+        "after": {
+          "gate_count": 301,
+          "depth": 35
+        },
+        "gate_reduction_pct": 29.84,
+        "depth_reduction_pct": 18.6,
+        "compile_time_s": 0.3381,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.689518392086029
+      },
+      {
+        "id": "vqe_0162",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 155,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 107,
+          "depth": 19
+        },
+        "gate_reduction_pct": 30.97,
+        "depth_reduction_pct": 17.39,
+        "compile_time_s": 0.367,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6948347687721252
+      },
+      {
+        "id": "vqe_0191",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 404,
+          "depth": 47
+        },
+        "after": {
+          "gate_count": 284,
+          "depth": 37
+        },
+        "gate_reduction_pct": 29.7,
+        "depth_reduction_pct": 21.28,
+        "compile_time_s": 0.3895,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6836983561515808
+      },
+      {
+        "id": "vqe_0166",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 155,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 107,
+          "depth": 19
+        },
+        "gate_reduction_pct": 30.97,
+        "depth_reduction_pct": 17.39,
+        "compile_time_s": 0.3663,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6948347687721252
+      },
+      {
+        "id": "vqe_0051",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 118,
+          "depth": 25
+        },
+        "after": {
+          "gate_count": 82,
+          "depth": 19
+        },
+        "gate_reduction_pct": 30.51,
+        "depth_reduction_pct": 24.0,
+        "compile_time_s": 0.0217,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.628865122795105
+      },
+      {
+        "id": "vqe_0140",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 198,
+          "depth": 29
+        },
+        "after": {
+          "gate_count": 138,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.3,
+        "depth_reduction_pct": 20.69,
+        "compile_time_s": 0.2228,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6636011600494385
+      },
+      {
+        "id": "vqe_0241",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 51,
+          "depth": 15
+        },
+        "after": {
+          "gate_count": 35,
+          "depth": 11
+        },
+        "gate_reduction_pct": 31.37,
+        "depth_reduction_pct": 26.67,
+        "compile_time_s": 0.0156,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6654988527297974
+      },
+      {
+        "id": "vqe_0494",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 54,
+          "depth": 17
+        },
+        "gate_reduction_pct": 30.77,
+        "depth_reduction_pct": 26.09,
+        "compile_time_s": 0.0158,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.598433256149292
+      },
+      {
+        "id": "vqe_0055",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 118,
+          "depth": 25
+        },
+        "after": {
+          "gate_count": 82,
+          "depth": 19
+        },
+        "gate_reduction_pct": 30.51,
+        "depth_reduction_pct": 24.0,
+        "compile_time_s": 0.143,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.628865122795105
+      },
+      {
+        "id": "vqe_0301",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 159,
+          "depth": 33
+        },
+        "after": {
+          "gate_count": 111,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 24.24,
+        "compile_time_s": 0.0239,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6197898983955383
+      },
+      {
+        "id": "vqe_0202",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 207,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 143,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.92,
+        "depth_reduction_pct": 14.81,
+        "compile_time_s": 0.3166,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.7008213996887207
+      },
+      {
+        "id": "vqe_0164",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 155,
+          "depth": 23
+        },
+        "after": {
+          "gate_count": 107,
+          "depth": 19
+        },
+        "gate_reduction_pct": 30.97,
+        "depth_reduction_pct": 17.39,
+        "compile_time_s": 0.375,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6948347687721252
+      },
+      {
+        "id": "vqe_0349",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 213,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 149,
+          "depth": 27
+        },
+        "gate_reduction_pct": 30.05,
+        "depth_reduction_pct": 22.86,
+        "compile_time_s": 0.0516,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6497594714164734
+      },
+      {
+        "id": "vqe_0452",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 318,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 222,
+          "depth": 29
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 17.14,
+        "compile_time_s": 0.3193,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6839836835861206
+      },
+      {
+        "id": "vqe_0023",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 105,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 73,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.48,
+        "depth_reduction_pct": 25.81,
+        "compile_time_s": 0.0153,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5788846015930176
+      },
+      {
+        "id": "vqe_0312",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 200,
+          "depth": 41
+        },
+        "after": {
+          "gate_count": 140,
+          "depth": 31
+        },
+        "gate_reduction_pct": 30.0,
+        "depth_reduction_pct": 24.39,
+        "compile_time_s": 0.0189,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6185524463653564
+      },
+      {
+        "id": "vqe_0177",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 238,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 166,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.25,
+        "depth_reduction_pct": 19.35,
+        "compile_time_s": 0.3937,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.672894299030304
+      },
+      {
+        "id": "vqe_0270",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 105,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 73,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.48,
+        "depth_reduction_pct": 25.81,
+        "compile_time_s": 0.0155,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5788846015930176
+      },
+      {
+        "id": "vqe_0122",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 129,
+          "depth": 21
+        },
+        "after": {
+          "gate_count": 89,
+          "depth": 17
+        },
+        "gate_reduction_pct": 31.01,
+        "depth_reduction_pct": 19.05,
+        "compile_time_s": 0.3048,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6904081106185913
+      },
+      {
+        "id": "vqe_0027",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 105,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 73,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.48,
+        "depth_reduction_pct": 25.81,
+        "compile_time_s": 0.0151,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5788846015930176
+      },
+      {
+        "id": "vqe_0196",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 404,
+          "depth": 47
+        },
+        "after": {
+          "gate_count": 284,
+          "depth": 37
+        },
+        "gate_reduction_pct": 29.7,
+        "depth_reduction_pct": 21.28,
+        "compile_time_s": 0.3829,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6836983561515808
+      },
+      {
+        "id": "vqe_0476",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 540,
+          "depth": 51
+        },
+        "after": {
+          "gate_count": 380,
+          "depth": 41
+        },
+        "gate_reduction_pct": 29.63,
+        "depth_reduction_pct": 19.61,
+        "compile_time_s": 0.3378,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6973105669021606
+      },
+      {
+        "id": "vqe_0207",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 207,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 143,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.92,
+        "depth_reduction_pct": 14.81,
+        "compile_time_s": 0.3077,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.7008213996887207
+      },
+      {
+        "id": "vqe_0210",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 207,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 143,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.92,
+        "depth_reduction_pct": 14.81,
+        "compile_time_s": 0.3168,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.7008213996887207
+      },
+      {
+        "id": "vqe_0426",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 321,
+          "depth": 39
+        },
+        "after": {
+          "gate_count": 225,
+          "depth": 31
+        },
+        "gate_reduction_pct": 29.91,
+        "depth_reduction_pct": 20.51,
+        "compile_time_s": 0.4014,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6769078969955444
+      },
+      {
+        "id": "vqe_0285",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 77,
+          "depth": 17
+        },
+        "after": {
+          "gate_count": 53,
+          "depth": 13
+        },
+        "gate_reduction_pct": 31.17,
+        "depth_reduction_pct": 23.53,
+        "compile_time_s": 0.0189,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6757257580757141
+      },
+      {
+        "id": "vqe_0455",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 16,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 318,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 222,
+          "depth": 29
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 17.14,
+        "compile_time_s": 0.3321,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6839836835861206
+      },
+      {
+        "id": "vqe_0049",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 77,
+          "depth": 17
+        },
+        "after": {
+          "gate_count": 53,
+          "depth": 13
+        },
+        "gate_reduction_pct": 31.17,
+        "depth_reduction_pct": 23.53,
+        "compile_time_s": 0.0235,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6757257580757141
+      },
+      {
+        "id": "vqe_0360",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 268,
+          "depth": 43
+        },
+        "after": {
+          "gate_count": 188,
+          "depth": 33
+        },
+        "gate_reduction_pct": 29.85,
+        "depth_reduction_pct": 23.26,
+        "compile_time_s": 0.0336,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6533403396606445
+      },
+      {
+        "id": "vqe_0419",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 238,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 166,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.25,
+        "depth_reduction_pct": 19.35,
+        "compile_time_s": 0.3784,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.672894299030304
+      },
+      {
+        "id": "vqe_0033",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 132,
+          "depth": 39
+        },
+        "after": {
+          "gate_count": 92,
+          "depth": 29
+        },
+        "gate_reduction_pct": 30.3,
+        "depth_reduction_pct": 25.64,
+        "compile_time_s": 0.0161,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5655194520950317
+      },
+      {
+        "id": "vqe_0182",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 321,
+          "depth": 39
+        },
+        "after": {
+          "gate_count": 225,
+          "depth": 31
+        },
+        "gate_reduction_pct": 29.91,
+        "depth_reduction_pct": 20.51,
+        "compile_time_s": 0.3963,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6769078969955444
+      },
+      {
+        "id": "vqe_0278",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 132,
+          "depth": 39
+        },
+        "after": {
+          "gate_count": 92,
+          "depth": 29
+        },
+        "gate_reduction_pct": 30.3,
+        "depth_reduction_pct": 25.64,
+        "compile_time_s": 0.0158,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5655194520950317
+      },
+      {
+        "id": "vqe_0030",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 4,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 105,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 73,
+          "depth": 23
+        },
+        "gate_reduction_pct": 30.48,
+        "depth_reduction_pct": 25.81,
+        "compile_time_s": 0.0148,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.5788846015930176
+      },
+      {
+        "id": "vqe_0334",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 158,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 110,
+          "depth": 21
+        },
+        "gate_reduction_pct": 30.38,
+        "depth_reduction_pct": 22.22,
+        "compile_time_s": 0.0536,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6510056853294373
+      },
+      {
+        "id": "vqe_0355",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 4
+        },
+        "before": {
+          "gate_count": 268,
+          "depth": 43
+        },
+        "after": {
+          "gate_count": 188,
+          "depth": 33
+        },
+        "gate_reduction_pct": 29.85,
+        "depth_reduction_pct": 23.26,
+        "compile_time_s": 0.0526,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6533403396606445
+      },
+      {
+        "id": "vqe_0088",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 103,
+          "depth": 19
+        },
+        "after": {
+          "gate_count": 71,
+          "depth": 15
+        },
+        "gate_reduction_pct": 31.07,
+        "depth_reduction_pct": 21.05,
+        "compile_time_s": 0.0845,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6835989356040955
+      },
+      {
+        "id": "vqe_0416",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 12,
+          "reps": 2
+        },
+        "before": {
+          "gate_count": 238,
+          "depth": 31
+        },
+        "after": {
+          "gate_count": 166,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.25,
+        "depth_reduction_pct": 19.35,
+        "compile_time_s": 0.4496,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.672894299030304
+      },
+      {
+        "id": "vqe_0324",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 103,
+          "depth": 19
+        },
+        "after": {
+          "gate_count": 71,
+          "depth": 15
+        },
+        "gate_reduction_pct": 31.07,
+        "depth_reduction_pct": 21.05,
+        "compile_time_s": 0.1213,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6835989356040955
+      },
+      {
+        "id": "vqe_0143",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 10,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 267,
+          "depth": 37
+        },
+        "after": {
+          "gate_count": 187,
+          "depth": 29
+        },
+        "gate_reduction_pct": 29.96,
+        "depth_reduction_pct": 21.62,
+        "compile_time_s": 0.1832,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6669575572013855
+      },
+      {
+        "id": "vqe_0107",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 8,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 213,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 149,
+          "depth": 27
+        },
+        "gate_reduction_pct": 30.05,
+        "depth_reduction_pct": 22.86,
+        "compile_time_s": 0.0687,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6497594714164734
+      },
+      {
+        "id": "vqe_0281",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 1
+        },
+        "before": {
+          "gate_count": 77,
+          "depth": 17
+        },
+        "after": {
+          "gate_count": 53,
+          "depth": 13
+        },
+        "gate_reduction_pct": 31.17,
+        "depth_reduction_pct": 23.53,
+        "compile_time_s": 0.0334,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6757257580757141
+      },
+      {
+        "id": "vqe_0069",
+        "type": "VQE",
+        "config": {
+          "n_qubits": 6,
+          "reps": 3
+        },
+        "before": {
+          "gate_count": 159,
+          "depth": 33
+        },
+        "after": {
+          "gate_count": 111,
+          "depth": 25
+        },
+        "gate_reduction_pct": 30.19,
+        "depth_reduction_pct": 24.24,
+        "compile_time_s": 0.0395,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.6197898983955383
+      }
+    ],
+    "IQP": [
+      {
+        "id": "iqp_0043",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 63,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 48,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.1133,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9553468227386475
+      },
+      {
+        "id": "iqp_0007",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 42,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 32,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.023,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9486094117164612
+      },
+      {
+        "id": "iqp_0037",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 96,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 34,
+          "depth": 14
+        },
+        "gate_reduction_pct": 64.58,
+        "depth_reduction_pct": 60.0,
+        "compile_time_s": 0.0176,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8074588179588318
+      },
+      {
+        "id": "iqp_0023",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 32,
+          "depth": 11
+        },
+        "gate_reduction_pct": 58.97,
+        "depth_reduction_pct": 63.33,
+        "compile_time_s": 0.0185,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8405678272247314
+      },
+      {
+        "id": "iqp_0160",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 110,
+          "depth": 21
+        },
+        "gate_reduction_pct": 54.17,
+        "depth_reduction_pct": 44.74,
+        "compile_time_s": 0.8075,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8563594818115234
+      },
+      {
+        "id": "iqp_0050",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 63,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 48,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0682,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9502756595611572
+      },
+      {
+        "id": "iqp_0285",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 63,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 48,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0692,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9495928287506104
+      },
+      {
+        "id": "iqp_0256",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 60,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 34,
+          "depth": 14
+        },
+        "gate_reduction_pct": 43.33,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.0166,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9161139130592346
+      },
+      {
+        "id": "iqp_0328",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 84,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 64,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.3208,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9621385335922241
+      },
+      {
+        "id": "iqp_0273",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 96,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 24,
+          "depth": 9
+        },
+        "gate_reduction_pct": 75.0,
+        "depth_reduction_pct": 76.32,
+        "compile_time_s": 0.018,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8208940625190735
+      },
+      {
+        "id": "iqp_0287",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 63,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 48,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0515,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.955202579498291
+      },
+      {
+        "id": "iqp_0424",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 234,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 109,
+          "depth": 18
+        },
+        "gate_reduction_pct": 53.42,
+        "depth_reduction_pct": 33.33,
+        "compile_time_s": 0.2212,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9006105065345764
+      },
+      {
+        "id": "iqp_0117",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 192,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 77,
+          "depth": 20
+        },
+        "gate_reduction_pct": 59.9,
+        "depth_reduction_pct": 42.86,
+        "compile_time_s": 0.1798,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8338326215744019
+      },
+      {
+        "id": "iqp_0028",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 22,
+          "depth": 8
+        },
+        "gate_reduction_pct": 71.79,
+        "depth_reduction_pct": 70.37,
+        "compile_time_s": 0.0174,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8453883528709412
+      },
+      {
+        "id": "iqp_0015",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 60,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 20,
+          "depth": 5
+        },
+        "gate_reduction_pct": 66.67,
+        "depth_reduction_pct": 77.27,
+        "compile_time_s": 0.0141,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9163620471954346
+      },
+      {
+        "id": "iqp_0087",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 84,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 64,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.2977,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9485843181610107
+      },
+      {
+        "id": "iqp_0310",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 117,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 52,
+          "depth": 17
+        },
+        "gate_reduction_pct": 55.56,
+        "depth_reduction_pct": 43.33,
+        "compile_time_s": 0.0175,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8606218695640564
+      },
+      {
+        "id": "iqp_0019",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 60,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 34,
+          "depth": 14
+        },
+        "gate_reduction_pct": 43.33,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.0158,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8849754333496094
+      },
+      {
+        "id": "iqp_0118",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 192,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 77,
+          "depth": 19
+        },
+        "gate_reduction_pct": 59.9,
+        "depth_reduction_pct": 45.71,
+        "compile_time_s": 0.296,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8433480858802795
+      },
+      {
+        "id": "iqp_0350",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 156,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 65,
+          "depth": 17
+        },
+        "gate_reduction_pct": 58.33,
+        "depth_reduction_pct": 43.33,
+        "compile_time_s": 0.2238,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8798074722290039
+      },
+      {
+        "id": "iqp_0352",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 192,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 84,
+          "depth": 22
+        },
+        "gate_reduction_pct": 56.25,
+        "depth_reduction_pct": 37.14,
+        "compile_time_s": 0.2365,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8368295431137085
+      },
+      {
+        "id": "iqp_0216",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 126,
+          "depth": 14
+        },
+        "gate_reduction_pct": 47.5,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.3219,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9320747256278992
+      },
+      {
+        "id": "iqp_0296",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 90,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 30,
+          "depth": 5
+        },
+        "gate_reduction_pct": 66.67,
+        "depth_reduction_pct": 77.27,
+        "compile_time_s": 0.0168,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9199672341346741
+      },
+      {
+        "id": "iqp_0495",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 60,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 34,
+          "depth": 14
+        },
+        "gate_reduction_pct": 43.33,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.0163,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8867993354797363
+      },
+      {
+        "id": "iqp_0394",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 87,
+          "depth": 16
+        },
+        "gate_reduction_pct": 63.75,
+        "depth_reduction_pct": 54.29,
+        "compile_time_s": 0.3259,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8427169919013977
+      },
+      {
+        "id": "iqp_0152",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 101,
+          "depth": 19
+        },
+        "gate_reduction_pct": 57.92,
+        "depth_reduction_pct": 45.71,
+        "compile_time_s": 0.2638,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8558897376060486
+      },
+      {
+        "id": "iqp_0265",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 32,
+          "depth": 11
+        },
+        "gate_reduction_pct": 58.97,
+        "depth_reduction_pct": 63.33,
+        "compile_time_s": 0.0168,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8579046726226807
+      },
+      {
+        "id": "iqp_0156",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 99,
+          "depth": 19
+        },
+        "gate_reduction_pct": 58.75,
+        "depth_reduction_pct": 50.0,
+        "compile_time_s": 0.7042,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8535848259925842
+      },
+      {
+        "id": "iqp_0348",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 156,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 63,
+          "depth": 15
+        },
+        "gate_reduction_pct": 59.62,
+        "depth_reduction_pct": 50.0,
+        "compile_time_s": 0.15,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8581117391586304
+      },
+      {
+        "id": "iqp_0485",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 42,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 32,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0162,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9486094117164612
+      },
+      {
+        "id": "iqp_0347",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 156,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 54,
+          "depth": 11
+        },
+        "gate_reduction_pct": 65.38,
+        "depth_reduction_pct": 59.26,
+        "compile_time_s": 0.2858,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.884071946144104
+      },
+      {
+        "id": "iqp_0278",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 96,
+          "depth": 32
+        },
+        "after": {
+          "gate_count": 29,
+          "depth": 12
+        },
+        "gate_reduction_pct": 69.79,
+        "depth_reduction_pct": 62.5,
+        "compile_time_s": 0.0164,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8414025902748108
+      },
+      {
+        "id": "iqp_0307",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 117,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 52,
+          "depth": 17
+        },
+        "gate_reduction_pct": 55.56,
+        "depth_reduction_pct": 37.04,
+        "compile_time_s": 0.0321,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8588229417800903
+      },
+      {
+        "id": "iqp_0173",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 180,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 83,
+          "depth": 14
+        },
+        "gate_reduction_pct": 53.89,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.1101,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9217885732650757
+      },
+      {
+        "id": "iqp_0344",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 156,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 72,
+          "depth": 15
+        },
+        "gate_reduction_pct": 53.85,
+        "depth_reduction_pct": 50.0,
+        "compile_time_s": 0.2954,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8589498996734619
+      },
+      {
+        "id": "iqp_0244",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 42,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 32,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0172,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9486094117164612
+      },
+      {
+        "id": "iqp_0464",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 312,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 145,
+          "depth": 17
+        },
+        "gate_reduction_pct": 53.53,
+        "depth_reduction_pct": 43.33,
+        "compile_time_s": 0.6105,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.905112624168396
+      },
+      {
+        "id": "iqp_0193",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 288,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 104,
+          "depth": 17
+        },
+        "gate_reduction_pct": 63.89,
+        "depth_reduction_pct": 55.26,
+        "compile_time_s": 0.3924,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9012338519096375
+      },
+      {
+        "id": "iqp_0261",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 36,
+          "depth": 16
+        },
+        "gate_reduction_pct": 53.85,
+        "depth_reduction_pct": 40.74,
+        "compile_time_s": 0.0183,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8581994771957397
+      },
+      {
+        "id": "iqp_0469",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 312,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 125,
+          "depth": 18
+        },
+        "gate_reduction_pct": 59.94,
+        "depth_reduction_pct": 40.0,
+        "compile_time_s": 0.5084,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9168502688407898
+      },
+      {
+        "id": "iqp_0051",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 90,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 46,
+          "depth": 14
+        },
+        "gate_reduction_pct": 48.89,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.0311,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8918914198875427
+      },
+      {
+        "id": "iqp_0133",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 150,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 78,
+          "depth": 14
+        },
+        "gate_reduction_pct": 48.0,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.1101,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9282097220420837
+      },
+      {
+        "id": "iqp_0204",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 168,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 128,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.2525,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9571682214736938
+      },
+      {
+        "id": "iqp_0045",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 63,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 48,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0604,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9482027888298035
+      },
+      {
+        "id": "iqp_0264",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 32,
+          "depth": 11
+        },
+        "gate_reduction_pct": 58.97,
+        "depth_reduction_pct": 63.33,
+        "compile_time_s": 0.0169,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8414011597633362
+      },
+      {
+        "id": "iqp_0224",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 312,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 138,
+          "depth": 18
+        },
+        "gate_reduction_pct": 55.77,
+        "depth_reduction_pct": 40.0,
+        "compile_time_s": 0.5002,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8925126791000366
+      },
+      {
+        "id": "iqp_0039",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 96,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 20,
+          "depth": 5
+        },
+        "gate_reduction_pct": 79.17,
+        "depth_reduction_pct": 86.84,
+        "compile_time_s": 0.0153,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8208689093589783
+      },
+      {
+        "id": "iqp_0363",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 105,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 80,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.3218,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9565076231956482
+      },
+      {
+        "id": "iqp_0212",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 136,
+          "depth": 14
+        },
+        "gate_reduction_pct": 43.33,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.3449,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9384032487869263
+      },
+      {
+        "id": "iqp_0409",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 126,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 96,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.2886,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9574645161628723
+      },
+      {
+        "id": "iqp_0487",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 42,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 32,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0167,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9492745399475098
+      },
+      {
+        "id": "iqp_0455",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 129,
+          "depth": 14
+        },
+        "gate_reduction_pct": 46.25,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.0854,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9287888407707214
+      },
+      {
+        "id": "iqp_0385",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 195,
+          "depth": 27
+        },
+        "after": {
+          "gate_count": 86,
+          "depth": 16
+        },
+        "gate_reduction_pct": 55.9,
+        "depth_reduction_pct": 40.74,
+        "compile_time_s": 0.2423,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.884502649307251
+      },
+      {
+        "id": "iqp_0198",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 288,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 111,
+          "depth": 19
+        },
+        "gate_reduction_pct": 61.46,
+        "depth_reduction_pct": 50.0,
+        "compile_time_s": 0.7249,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8574203252792358
+      },
+      {
+        "id": "iqp_0323",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 84,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 64,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.3174,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9506297707557678
+      },
+      {
+        "id": "iqp_0396",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 94,
+          "depth": 21
+        },
+        "gate_reduction_pct": 60.83,
+        "depth_reduction_pct": 40.0,
+        "compile_time_s": 0.6427,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8551107048988342
+      },
+      {
+        "id": "iqp_0149",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 195,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 93,
+          "depth": 18
+        },
+        "gate_reduction_pct": 52.31,
+        "depth_reduction_pct": 40.0,
+        "compile_time_s": 0.5347,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8870324492454529
+      },
+      {
+        "id": "iqp_0486",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 42,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 32,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0175,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9492745399475098
+      },
+      {
+        "id": "iqp_0202",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 168,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 128,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.2479,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9619869589805603
+      },
+      {
+        "id": "iqp_0332",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 120,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 54,
+          "depth": 14
+        },
+        "gate_reduction_pct": 55.0,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.024,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9401193857192993
+      },
+      {
+        "id": "iqp_0063",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 117,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 45,
+          "depth": 18
+        },
+        "gate_reduction_pct": 61.54,
+        "depth_reduction_pct": 40.0,
+        "compile_time_s": 0.021,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.851674497127533
+      },
+      {
+        "id": "iqp_0266",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 22,
+          "depth": 8
+        },
+        "gate_reduction_pct": 71.79,
+        "depth_reduction_pct": 73.33,
+        "compile_time_s": 0.0155,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8910329341888428
+      },
+      {
+        "id": "iqp_0277",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 96,
+          "depth": 32
+        },
+        "after": {
+          "gate_count": 20,
+          "depth": 5
+        },
+        "gate_reduction_pct": 79.17,
+        "depth_reduction_pct": 84.38,
+        "compile_time_s": 0.0149,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8794779777526855
+      },
+      {
+        "id": "iqp_0197",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 288,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 125,
+          "depth": 22
+        },
+        "gate_reduction_pct": 56.6,
+        "depth_reduction_pct": 42.11,
+        "compile_time_s": 0.7488,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8798488974571228
+      },
+      {
+        "id": "iqp_0111",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 192,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 80,
+          "depth": 19
+        },
+        "gate_reduction_pct": 58.33,
+        "depth_reduction_pct": 45.71,
+        "compile_time_s": 0.085,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8510332107543945
+      },
+      {
+        "id": "iqp_0254",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 60,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 34,
+          "depth": 14
+        },
+        "gate_reduction_pct": 43.33,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.0166,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8745812177658081
+      },
+      {
+        "id": "iqp_0359",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 192,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 65,
+          "depth": 17
+        },
+        "gate_reduction_pct": 66.15,
+        "depth_reduction_pct": 51.43,
+        "compile_time_s": 0.1642,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8584540486335754
+      },
+      {
+        "id": "iqp_0263",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 78,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 29,
+          "depth": 13
+        },
+        "gate_reduction_pct": 62.82,
+        "depth_reduction_pct": 56.67,
+        "compile_time_s": 0.0161,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8565688133239746
+      },
+      {
+        "id": "iqp_0151",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 98,
+          "depth": 21
+        },
+        "gate_reduction_pct": 59.17,
+        "depth_reduction_pct": 44.74,
+        "compile_time_s": 0.7837,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.849784255027771
+      },
+      {
+        "id": "iqp_0321",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 84,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 64,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.3516,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9563801288604736
+      },
+      {
+        "id": "iqp_0301",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 117,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 49,
+          "depth": 14
+        },
+        "gate_reduction_pct": 58.12,
+        "depth_reduction_pct": 53.33,
+        "compile_time_s": 0.0417,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.84727543592453
+      },
+      {
+        "id": "iqp_0320",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 144,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 46,
+          "depth": 14
+        },
+        "gate_reduction_pct": 68.06,
+        "depth_reduction_pct": 60.0,
+        "compile_time_s": 0.041,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8251743912696838
+      },
+      {
+        "id": "iqp_0095",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 120,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 63,
+          "depth": 14
+        },
+        "gate_reduction_pct": 47.5,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.1206,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9136011600494385
+      },
+      {
+        "id": "iqp_0407",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 126,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 96,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.2915,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9553436636924744
+      },
+      {
+        "id": "iqp_0220",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 126,
+          "depth": 14
+        },
+        "gate_reduction_pct": 47.5,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.329,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9072027206420898
+      },
+      {
+        "id": "iqp_0123",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 105,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 80,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.3179,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9593504071235657
+      },
+      {
+        "id": "iqp_0331",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 120,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 58,
+          "depth": 14
+        },
+        "gate_reduction_pct": 51.67,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.1918,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9174336791038513
+      },
+      {
+        "id": "iqp_0121",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 105,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 80,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.3215,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9609079360961914
+      },
+      {
+        "id": "iqp_0297",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 90,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 46,
+          "depth": 14
+        },
+        "gate_reduction_pct": 48.89,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.0248,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9078838229179382
+      },
+      {
+        "id": "iqp_0042",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 63,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 48,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0531,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9511921405792236
+      },
+      {
+        "id": "iqp_0418",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 180,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 87,
+          "depth": 14
+        },
+        "gate_reduction_pct": 51.67,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.3774,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9352852702140808
+      },
+      {
+        "id": "iqp_0169",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 126,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 96,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.2968,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9617753028869629
+      },
+      {
+        "id": "iqp_0047",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 63,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 48,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.0733,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.955005407333374
+      },
+      {
+        "id": "iqp_0211",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 240,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 109,
+          "depth": 14
+        },
+        "gate_reduction_pct": 54.58,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.1913,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.933306872844696
+      },
+      {
+        "id": "iqp_0354",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 192,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 91,
+          "depth": 21
+        },
+        "gate_reduction_pct": 52.6,
+        "depth_reduction_pct": 44.74,
+        "compile_time_s": 0.7943,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8499372601509094
+      },
+      {
+        "id": "iqp_0493",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 60,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 20,
+          "depth": 5
+        },
+        "gate_reduction_pct": 66.67,
+        "depth_reduction_pct": 77.27,
+        "compile_time_s": 0.0144,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8944506645202637
+      },
+      {
+        "id": "iqp_0073",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 144,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 46,
+          "depth": 14
+        },
+        "gate_reduction_pct": 68.06,
+        "depth_reduction_pct": 60.0,
+        "compile_time_s": 0.0247,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8633463382720947
+      },
+      {
+        "id": "iqp_0205",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 168,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 128,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.2489,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9601272940635681
+      },
+      {
+        "id": "iqp_0187",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 234,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 94,
+          "depth": 15
+        },
+        "gate_reduction_pct": 59.83,
+        "depth_reduction_pct": 50.0,
+        "compile_time_s": 0.4195,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8971588015556335
+      },
+      {
+        "id": "iqp_0221",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 312,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 140,
+          "depth": 18
+        },
+        "gate_reduction_pct": 55.13,
+        "depth_reduction_pct": 40.0,
+        "compile_time_s": 0.45,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8698736429214478
+      },
+      {
+        "id": "iqp_0020",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 60,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 24,
+          "depth": 9
+        },
+        "gate_reduction_pct": 60.0,
+        "depth_reduction_pct": 59.09,
+        "compile_time_s": 0.0172,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8853692412376404
+      },
+      {
+        "id": "iqp_0401",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 126,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 96,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.2895,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9554139375686646
+      },
+      {
+        "id": "iqp_0195",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 12,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 288,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 106,
+          "depth": 19
+        },
+        "gate_reduction_pct": 63.19,
+        "depth_reduction_pct": 50.0,
+        "compile_time_s": 0.6107,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8404924273490906
+      },
+      {
+        "id": "iqp_0064",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 117,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 54,
+          "depth": 15
+        },
+        "gate_reduction_pct": 53.85,
+        "depth_reduction_pct": 50.0,
+        "compile_time_s": 0.0488,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8591911792755127
+      },
+      {
+        "id": "iqp_0097",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 8,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 120,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 58,
+          "depth": 14
+        },
+        "gate_reduction_pct": 51.67,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.1278,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9281060695648193
+      },
+      {
+        "id": "iqp_0372",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 10,
+          "depth": 2
+        },
+        "before": {
+          "gate_count": 150,
+          "depth": 22
+        },
+        "after": {
+          "gate_count": 75,
+          "depth": 14
+        },
+        "gate_reduction_pct": 50.0,
+        "depth_reduction_pct": 36.36,
+        "compile_time_s": 0.2003,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9226073622703552
+      },
+      {
+        "id": "iqp_0442",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 1
+        },
+        "before": {
+          "gate_count": 168,
+          "depth": 14
+        },
+        "after": {
+          "gate_count": 128,
+          "depth": 11
+        },
+        "gate_reduction_pct": 23.81,
+        "depth_reduction_pct": 21.43,
+        "compile_time_s": 0.2542,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.9593636989593506
+      },
+      {
+        "id": "iqp_0031",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 4,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 96,
+          "depth": 38
+        },
+        "after": {
+          "gate_count": 41,
+          "depth": 17
+        },
+        "gate_reduction_pct": 57.29,
+        "depth_reduction_pct": 55.26,
+        "compile_time_s": 0.016,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8131803274154663
+      },
+      {
+        "id": "iqp_0315",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 6,
+          "depth": 4
+        },
+        "before": {
+          "gate_count": 144,
+          "depth": 35
+        },
+        "after": {
+          "gate_count": 58,
+          "depth": 19
+        },
+        "gate_reduction_pct": 59.72,
+        "depth_reduction_pct": 45.71,
+        "compile_time_s": 0.0247,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8214178085327148
+      },
+      {
+        "id": "iqp_0227",
+        "type": "IQP",
+        "config": {
+          "n_qubits": 16,
+          "depth": 3
+        },
+        "before": {
+          "gate_count": 312,
+          "depth": 30
+        },
+        "after": {
+          "gate_count": 159,
+          "depth": 17
+        },
+        "gate_reduction_pct": 49.04,
+        "depth_reduction_pct": 43.33,
+        "compile_time_s": 0.3856,
+        "method": "quantumopt_compile",
+        "gnn_prediction": 0.8790184855461121
+      }
+    ]
+  }
+}

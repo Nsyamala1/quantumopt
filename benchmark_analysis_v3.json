@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-03-12T18:30:47.141141+00:00",
+  "method": "quantumopt_compile",
+  "analysis": {
+    "QAOA": {
+      "n_circuits": 100,
+      "pct_improved": 100.0,
+      "pct_worsened": 0.0,
+      "pct_unchanged": 0.0,
+      "mean_gate_reduction": 5.65,
+      "median_gate_reduction": 1.97,
+      "best_gate_reduction": 67.9,
+      "worst_gate_reduction": 0.24,
+      "mean_depth_reduction": 2.29,
+      "median_depth_reduction": 0.0,
+      "qubit_breakdown": {
+        "4": {
+          "n_circuits": 16,
+          "mean_gate_reduction": 23.01
+        },
+        "6": {
+          "n_circuits": 25,
+          "mean_gate_reduction": 4.45
+        },
+        "8": {
+          "n_circuits": 16,
+          "mean_gate_reduction": 2.46
+        },
+        "10": {
+          "n_circuits": 12,
+          "mean_gate_reduction": 1.52
+        },
+        "12": {
+          "n_circuits": 17,
+          "mean_gate_reduction": 1.19
+        },
+        "16": {
+          "n_circuits": 7,
+          "mean_gate_reduction": 0.63
+        },
+        "20": {
+          "n_circuits": 7,
+          "mean_gate_reduction": 0.43
+        }
+      }
+    },
+    "VQE": {
+      "n_circuits": 100,
+      "pct_improved": 100.0,
+      "pct_worsened": 0.0,
+      "pct_unchanged": 0.0,
+      "mean_gate_reduction": 30.37,
+      "median_gate_reduction": 30.27,
+      "best_gate_reduction": 31.37,
+      "worst_gate_reduction": 29.63,
+      "mean_depth_reduction": 21.52,
+      "median_depth_reduction": 21.62,
+      "qubit_breakdown": {
+        "4": {
+          "n_circuits": 18,
+          "mean_gate_reduction": 30.67
+        },
+        "6": {
+          "n_circuits": 16,
+          "mean_gate_reduction": 30.43
+        },
+        "8": {
+          "n_circuits": 14,
+          "mean_gate_reduction": 30.32
+        },
+        "10": {
+          "n_circuits": 14,
+          "mean_gate_reduction": 30.37
+        },
+        "12": {
+          "n_circuits": 17,
+          "mean_gate_reduction": 30.3
+        },
+        "16": {
+          "n_circuits": 21,
+          "mean_gate_reduction": 30.16
+        }
+      }
+    },
+    "IQP": {
+      "n_circuits": 100,
+      "pct_improved": 100.0,
+      "pct_worsened": 0.0,
+      "pct_unchanged": 0.0,
+      "mean_gate_reduction": 48.5,
+      "median_gate_reduction": 53.85,
+      "best_gate_reduction": 79.17,
+      "worst_gate_reduction": 23.81,
+      "mean_depth_reduction": 41.24,
+      "median_depth_reduction": 40.0,
+      "qubit_breakdown": {
+        "4": {
+          "n_circuits": 25,
+          "mean_gate_reduction": 53.91
+        },
+        "6": {
+          "n_circuits": 18,
+          "mean_gate_reduction": 45.09
+        },
+        "8": {
+          "n_circuits": 18,
+          "mean_gate_reduction": 49.52
+        },
+        "10": {
+          "n_circuits": 13,
+          "mean_gate_reduction": 48.63
+        },
+        "12": {
+          "n_circuits": 12,
+          "mean_gate_reduction": 46.6
+        },
+        "16": {
+          "n_circuits": 14,
+          "mean_gate_reduction": 43.41
+        }
+      }
+    }
+  }
+}
