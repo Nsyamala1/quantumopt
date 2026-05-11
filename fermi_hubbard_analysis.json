@@ -1,0 +1,60 @@
+{
+  "circuits": [
+    {
+      "sites": 2,
+      "qubits": 4,
+      "before_gates": 54,
+      "before_depth": 34,
+      "before_gate_breakdown": {
+        "cx": 20,
+        "h": 16,
+        "rz": 10,
+        "sdg": 4,
+        "s": 4
+      },
+      "after_gates": 79,
+      "after_depth": 39,
+      "gate_reduction_pct": -46.3,
+      "gnn_prediction": 0.574,
+      "error": null
+    },
+    {
+      "sites": 3,
+      "qubits": 6,
+      "before_gates": 103,
+      "before_depth": 62,
+      "before_gate_breakdown": {
+        "cx": 38,
+        "h": 32,
+        "rz": 17,
+        "sdg": 8,
+        "s": 8
+      },
+      "after_gates": 151,
+      "after_depth": 85,
+      "gate_reduction_pct": -46.6,
+      "gnn_prediction": 0.6425,
+      "error": null
+    },
+    {
+      "sites": 4,
+      "qubits": 8,
+      "before_gates": 152,
+      "before_depth": 90,
+      "before_gate_breakdown": {
+        "cx": 56,
+        "h": 48,
+        "rz": 24,
+        "sdg": 12,
+        "s": 12
+      },
+      "after_gates": 225,
+      "after_depth": 123,
+      "gate_reduction_pct": -48.03,
+      "gnn_prediction": 0.6688,
+      "error": null
+    }
+  ],
+  "failure_analysis": "Qubit count: NOT a limit. FH circuits (4\u20138 qubits) are well within the 27-qubit ibm_brisbane target. | Gate pattern mismatch: GNN trained on QAOA/VQE; Trotter's XZX/YZY Pauli exponential blocks produce CNOT+Rz+CNOT 'staircase' patterns absent from training data, so GNN predictions are poorly calibrated. | Circuit depth: Trotter circuits grow linearly with system size; depth is not extreme but Qiskit lvl-3 transpiler already handles obvious reductions, leaving little for quantumopt's post-transpilation passes. | Near-hardware-optimal: Each Pauli exponential block (CNOT-Rz-CNOT) is irreducible without changing the unitary. Qiskit lvl-3 merges the boundary single-qubit gates. quantumopt's GNN-guided heuristics have no structural insight to exploit.",
+  "proposed_extension": "Extend quantumopt with a Trotter-aware compilation module: (1) Detect repeating Pauli exponential blocks via DAG pattern matching. (2) Add TrotterStepFusion pass: merge adjacent same-angle Rz rotations across Trotter boundaries; cancel CNOT pairs at block edges using commutativity of site-decoupled terms. (3) Augment GNN training dataset with Fermi-Hubbard, Heisenberg, and transverse-field Ising Trotter circuits (varied L and dt) so the GAT can learn Trotter graph topology. (4) Add higher-order (Suzuki-Trotter 2nd order) as a rewrite option that reduces depth by ~sqrt(n) vs naive first-order repetition."
+}
