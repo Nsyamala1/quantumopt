@@ -1,0 +1,148 @@
+{
+  "benchmark": "Suzuki-Trotter + Givens synthesis for 1D Fermi-Hubbard",
+  "parameters": {
+    "t": 1.0,
+    "U": 4.0,
+    "T_total": 0.4,
+    "first_order": {
+      "n_steps": 4,
+      "dt": 0.1
+    },
+    "suzuki2": {
+      "n_steps": 2,
+      "dt": 0.2
+    }
+  },
+  "methods": {
+    "A": "First-order Trotter baseline (4 steps \u00d7 dt=0.1)",
+    "B": "First-order + Givens synthesis (4 steps \u00d7 dt=0.1)",
+    "C": "Second-order Suzuki-Trotter + Givens (2 steps \u00d7 dt=0.2)"
+  },
+  "key_insight": "Suzuki-2 half-hops use dt/2=0.1, giving angle \u03b8=-0.05 \u2014 identical to the first-order full-hop angle. Precomputed Givens params apply to all hopping blocks in both methods without re-optimization.",
+  "validation_L2": {
+    "T_total": 0.4,
+    "trotter_error_A": 0.19110720153189248,
+    "trotter_error_B": 0.19110781780945033,
+    "trotter_error_C": 0.08145361933298909,
+    "suzuki2_lower_error": true,
+    "error_improvement_factor": 2.346208837579464
+  },
+  "extrapolation_L60_120q": {
+    "cx_A_first_order": 4256,
+    "cx_B_first_order_givens": 3312,
+    "cx_C_suzuki2_givens": 3072,
+    "cx_C_per_step": 1536,
+    "moderna_target_per_step": 9000,
+    "gap_to_moderna_target": 0
+  },
+  "results": [
+    {
+      "sites": 2,
+      "qubits": 4,
+      "first_order": {
+        "n_steps": 4,
+        "dt": 0.1,
+        "cx": 80,
+        "depth": 136,
+        "trotter_error": 0.19110720153189248
+      },
+      "first_order_givens": {
+        "cx": 64,
+        "depth": 117,
+        "trotter_error": 0.19110781780945033,
+        "cx_reduction_pct": 20.0,
+        "pairs_replaced": 8
+      },
+      "suzuki2_givens": {
+        "n_steps": 2,
+        "dt": 0.2,
+        "cx": 56,
+        "depth": 109,
+        "trotter_error": 0.08145361933298909,
+        "cx_reduction_pct": 30.0,
+        "pairs_replaced": 8
+      }
+    },
+    {
+      "sites": 4,
+      "qubits": 8,
+      "first_order": {
+        "n_steps": 4,
+        "dt": 0.1,
+        "cx": 224,
+        "depth": 273,
+        "trotter_error": 1.3658147242726268
+      },
+      "first_order_givens": {
+        "cx": 176,
+        "depth": 244,
+        "trotter_error": 1.3658241203734984,
+        "cx_reduction_pct": 21.43,
+        "pairs_replaced": 24
+      },
+      "suzuki2_givens": {
+        "n_steps": 2,
+        "dt": 0.2,
+        "cx": 160,
+        "depth": 223,
+        "trotter_error": 0.7397844779995102,
+        "cx_reduction_pct": 28.57,
+        "pairs_replaced": 24
+      }
+    },
+    {
+      "sites": 6,
+      "qubits": 12,
+      "first_order": {
+        "n_steps": 4,
+        "dt": 0.1,
+        "cx": 368,
+        "depth": 329,
+        "trotter_error": null
+      },
+      "first_order_givens": {
+        "cx": 288,
+        "depth": 296,
+        "trotter_error": null,
+        "cx_reduction_pct": 21.74,
+        "pairs_replaced": 40
+      },
+      "suzuki2_givens": {
+        "n_steps": 2,
+        "dt": 0.2,
+        "cx": 264,
+        "depth": 275,
+        "trotter_error": null,
+        "cx_reduction_pct": 28.26,
+        "pairs_replaced": 40
+      }
+    },
+    {
+      "sites": 8,
+      "qubits": 16,
+      "first_order": {
+        "n_steps": 4,
+        "dt": 0.1,
+        "cx": 512,
+        "depth": 385,
+        "trotter_error": null
+      },
+      "first_order_givens": {
+        "cx": 400,
+        "depth": 348,
+        "trotter_error": null,
+        "cx_reduction_pct": 21.88,
+        "pairs_replaced": 56
+      },
+      "suzuki2_givens": {
+        "n_steps": 2,
+        "dt": 0.2,
+        "cx": 368,
+        "depth": 327,
+        "trotter_error": null,
+        "cx_reduction_pct": 28.12,
+        "pairs_replaced": 56
+      }
+    }
+  ]
+}
