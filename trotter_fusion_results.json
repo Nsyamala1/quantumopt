@@ -1,0 +1,148 @@
+{
+  "benchmark": "1D Fermi-Hubbard Trotter circuits",
+  "parameters": {
+    "t": 1.0,
+    "U": 4.0,
+    "dt": 0.1,
+    "order": 1
+  },
+  "description": "Compares standard quantumopt.compile() against the new TrotterStepFusion pass on 1D Fermi-Hubbard Trotter circuits. TrotterBlockDetector successfully identifies Pauli exponential blocks. Abstract-level Rz-merge and CX-cancel find 0 optimizations in this circuit structure (see findings).",
+  "findings": "TrotterBlockDetector correctly identifies Pauli exponential blocks (6 for L=2, 36 for L=8). However, abstract-level Rz-merge and CX-cancel find 0 optimizations in the 1D Fermi-Hubbard Trotter circuit because: (1) XZX->YZY boundaries have H\u00b7Sdg\u00b7H on qubits \u2014 not directly cancelable; (2) on-site ZZ Rz gates are separated from single-Z Rz gates by a CX \u2014 no merge; (3) inter-bond boundaries act on disjoint qubits. Gate count inflation (~45-50%) is structural: H/S/Sdg each decompose to 2-3 native {SX,Rz} gates. Real improvement requires: (a) fermionic-hopping synthesis replacing each XZX+YZY pair (8 CNOTs) with a Givens rotation circuit (4 CNOTs) \u2014 not available in Qiskit by default; (b) native fermionic gate sets (e.g., Quantinuum ZZ-phase); (c) hardware-level peephole optimization in native {SX,Rz,CX} basis; (d) second-order Suzuki-Trotter to reduce total gate count ~sqrt(L).",
+  "results": [
+    {
+      "sites": 2,
+      "qubits": 4,
+      "standard": {
+        "before_gates": 54,
+        "after_gates": 79,
+        "gate_reduction_pct": -46.3,
+        "before_depth": 34,
+        "after_depth": 39,
+        "depth_reduction_pct": -14.71,
+        "gnn_prediction": 0.5739750266075134,
+        "error": null
+      },
+      "trotter_fusion": {
+        "before_gates": 54,
+        "after_gates": 77,
+        "gate_reduction_pct": -42.59,
+        "before_depth": 34,
+        "after_depth": 47,
+        "depth_reduction_pct": -38.24,
+        "trotter_blocks_detected": 6,
+        "rz_merges": 0,
+        "cnot_cancellations": 0,
+        "method_used": "trotter_fusion",
+        "error": null
+      }
+    },
+    {
+      "sites": 3,
+      "qubits": 6,
+      "standard": {
+        "before_gates": 103,
+        "after_gates": 153,
+        "gate_reduction_pct": -48.54,
+        "before_depth": 62,
+        "after_depth": 77,
+        "depth_reduction_pct": -24.19,
+        "gnn_prediction": 0.6425172686576843,
+        "error": null
+      },
+      "trotter_fusion": {
+        "before_gates": 103,
+        "after_gates": 152,
+        "gate_reduction_pct": -47.57,
+        "before_depth": 62,
+        "after_depth": 81,
+        "depth_reduction_pct": -30.65,
+        "trotter_blocks_detected": 11,
+        "rz_merges": 0,
+        "cnot_cancellations": 0,
+        "method_used": "trotter_fusion",
+        "error": null
+      }
+    },
+    {
+      "sites": 4,
+      "qubits": 8,
+      "standard": {
+        "before_gates": 152,
+        "after_gates": 227,
+        "gate_reduction_pct": -49.34,
+        "before_depth": 90,
+        "after_depth": 115,
+        "depth_reduction_pct": -27.78,
+        "gnn_prediction": 0.6687720417976379,
+        "error": null
+      },
+      "trotter_fusion": {
+        "before_gates": 152,
+        "after_gates": 225,
+        "gate_reduction_pct": -48.03,
+        "before_depth": 90,
+        "after_depth": 123,
+        "depth_reduction_pct": -36.67,
+        "trotter_blocks_detected": 16,
+        "rz_merges": 0,
+        "cnot_cancellations": 0,
+        "method_used": "trotter_fusion",
+        "error": null
+      }
+    },
+    {
+      "sites": 6,
+      "qubits": 12,
+      "standard": {
+        "before_gates": 250,
+        "after_gates": 373,
+        "gate_reduction_pct": -49.2,
+        "before_depth": 146,
+        "after_depth": 199,
+        "depth_reduction_pct": -36.3,
+        "gnn_prediction": 0.6915923357009888,
+        "error": null
+      },
+      "trotter_fusion": {
+        "before_gates": 250,
+        "after_gates": 372,
+        "gate_reduction_pct": -48.8,
+        "before_depth": 146,
+        "after_depth": 203,
+        "depth_reduction_pct": -39.04,
+        "trotter_blocks_detected": 26,
+        "rz_merges": 0,
+        "cnot_cancellations": 0,
+        "method_used": "trotter_fusion",
+        "error": null
+      }
+    },
+    {
+      "sites": 8,
+      "qubits": 16,
+      "standard": {
+        "before_gates": 348,
+        "after_gates": 520,
+        "gate_reduction_pct": -49.43,
+        "before_depth": 202,
+        "after_depth": 279,
+        "depth_reduction_pct": -38.12,
+        "gnn_prediction": 0.7015238404273987,
+        "error": null
+      },
+      "trotter_fusion": {
+        "before_gates": 348,
+        "after_gates": 524,
+        "gate_reduction_pct": -50.57,
+        "before_depth": 202,
+        "after_depth": 263,
+        "depth_reduction_pct": -30.2,
+        "trotter_blocks_detected": 36,
+        "rz_merges": 0,
+        "cnot_cancellations": 0,
+        "method_used": "trotter_fusion",
+        "error": null
+      }
+    }
+  ]
+}
